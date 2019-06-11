@@ -11,7 +11,7 @@ namespace Biblifun.Common.Test.Mocks
         {
             SetupTestData();
 
-            this.Setup(b => b.GetBibleBooks()).Returns(_allBooks);
+            this.Setup(b => b.BibleBooks).Returns(_allBooks);
         }
 
         private void SetupTestData()

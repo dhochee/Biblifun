@@ -59,7 +59,7 @@ namespace Biblifun.Common
             result = VerseParseResult.InvalidVerse;
 
             // attempt to extract the book from the start of the string
-            foreach (var bibleBook in _bibleBookProvider.GetBibleBooks())
+            foreach (var bibleBook in _bibleBookProvider.BibleBooks)
             {
                 foreach (var name in bibleBook.Names)
                 {

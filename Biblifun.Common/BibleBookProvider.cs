@@ -12,75 +12,16 @@ namespace Biblifun.Common
             _languageProvider = languageProvider;
         }
 
-        public List<BibleBook> GetBibleBooks()
+        public List<BibleBook> BibleBooks
         {
-            //TODO: Populate from database
-
-            var allBooks = new List<BibleBook>()
+            get
             {
-                new BibleBook
-                {
-                    BookId = 1,
-                    Names = new List<string>() { "Genesis", "Gen", "Ge" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                },
-                new BibleBook
-                {
-                    BookId = 2,
-                    Names = new List<string>() { "Exodus", "Exo", "Ex" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                },
-                new BibleBook
-                {
-                    BookId = 40,
-                    Names = new List<string>() { "Matthew", "Matt", "Mat", "Ma" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                },
-                new BibleBook
-                {
-                    BookId = 54,
-                    Names = new List<string>() { "1 Timothy", "1 Ti", "1Ti" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                },
-                new BibleBook
-                {
-                    BookId = 65,
-                    Names = new List<string>() { "Jude", "Ju" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                },
-                new BibleBook
-                {
-                    BookId = 66,
-                    Names = new List<string>() { "Revelation", "Rev", "Re" },
-                    Language = "en",
-                    Chapters = new List<BibleChapter>()
-                }
-            };
+                //TODO: Populate from database
 
-            // Matthew chapters
-            for (int i = 1; i <= 28; i++)
-            {
-                allBooks[2].Chapters.Add(new BibleChapter { ChapterNumber = i, VerseCount = 30 });
+                var allBooks = new List<BibleBook>();
+
+                return allBooks.Where(b => b.Language == _languageProvider.Language).ToList();
             }
-
-            // 1 Timothy
-            for (int i = 1; i <= 4; i++)
-            {
-                allBooks[3].Chapters.Add(new BibleChapter { ChapterNumber = i, VerseCount = 30 });
-            }
-
-            // Jude chapters
-            for (int i = 1; i <= 1; i++)
-            {
-                allBooks[4].Chapters.Add(new BibleChapter { ChapterNumber = i, VerseCount = 30 });
-            }
-
-            return allBooks.Where(b => b.Language == _languageProvider.Language).ToList();
         }
 
     }
