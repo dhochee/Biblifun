@@ -4,7 +4,6 @@ using Shouldly;
 
 namespace Biblifun.Common.Test
 {
-    [TestFixture]
     public class VerseParserTests
     {
         private const int BOOK_ID_MATTHEW = 40;

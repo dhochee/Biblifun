@@ -9,5 +9,9 @@
         string GetVerseDisplayText(IVerseSetId verseSet);
 
         string GetVerseDisplayText(string verseSetId);
+
+        string GetBookNameById(int bookId);
+
+        bool IsSingleChapterBook(int bookId);
     }
 }

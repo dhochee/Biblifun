@@ -14,11 +14,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8A
 		1. Create LogEvents DB.sql = 1. Create LogEvents DB.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.Common", "Biblifun.Common\Biblifun.Common.csproj", "{C1170C23-6BC4-4C23-8E41-37BB440C99C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.Common", "Biblifun.Common\Biblifun.Common.csproj", "{C1170C23-6BC4-4C23-8E41-37BB440C99C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{03DEDA35-E6FD-4E05-BE88-B2A0FF14DDAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.Common.Test", "Biblifun.Common.Test\Biblifun.Common.Test.csproj", "{95A55C39-2240-44CC-92E6-818EB9919E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.Common.Test", "Biblifun.Common.Test\Biblifun.Common.Test.csproj", "{95A55C39-2240-44CC-92E6-818EB9919E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.WebLookup", "Biblifun.WebLookup\Biblifun.WebLookup.csproj", "{0C15448F-157A-4985-8DAA-E787D027CAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.WebLookup.Test", "Biblifun.WebLookup.Test\Biblifun.WebLookup.Test.csproj", "{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.IntegrationTests", "Biblifun.IntegrationTests\Biblifun.IntegrationTests.csproj", "{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +48,18 @@ Global
 		{95A55C39-2240-44CC-92E6-818EB9919E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A55C39-2240-44CC-92E6-818EB9919E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A55C39-2240-44CC-92E6-818EB9919E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C15448F-157A-4985-8DAA-E787D027CAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C15448F-157A-4985-8DAA-E787D027CAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C15448F-157A-4985-8DAA-E787D027CAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C15448F-157A-4985-8DAA-E787D027CAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +67,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8AEC6653-1D85-44E0-B96E-D2A42BDFFB04} = {6C898FED-C00D-4018-935C-F1FB6F7D64E3}
 		{95A55C39-2240-44CC-92E6-818EB9919E34} = {03DEDA35-E6FD-4E05-BE88-B2A0FF14DDAB}
+		{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED} = {03DEDA35-E6FD-4E05-BE88-B2A0FF14DDAB}
+		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC} = {03DEDA35-E6FD-4E05-BE88-B2A0FF14DDAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E344D4C-D0B6-4D23-81F9-A3CFAAF39566}

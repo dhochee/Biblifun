@@ -20,6 +20,11 @@ namespace Biblifun.Common
             _bibleBookProvider = bibleBookProvider;
         }
 
+        public string GetBookNameById(int bookId)
+        {
+            return _bibleBookProvider.GetBookById(bookId).Name;
+        }
+
         /// <summary>
         /// Return the language-specific verse display text for the verse or 
         /// sequence identified by the verse set id string input.
@@ -85,6 +90,11 @@ namespace Biblifun.Common
             }
 
             return setId;
+        }
+
+        public bool IsSingleChapterBook(int bookId)
+        {
+            return _bibleBookProvider.GetBookById(bookId).IsSingleChapter;
         }
 
         public VerseParseResult TryParseVerseString(string scriptureString, out IVerseSetId verseSet)
