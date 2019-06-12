@@ -7,9 +7,18 @@ namespace Biblifun.Common
     {
         readonly ILanguageProvider _languageProvider;
 
+        private List<BibleBook> _allBooks;
+        private Dictionary<string, Dictionary<int, BibleBook>> _bookNamesById;
+
         public BibleBookProvider(ILanguageProvider languageProvider)
         {
+            //TODO: Inject Bible Books repository
+
             _languageProvider = languageProvider;
+
+
+            _allBooks = new List<BibleBook>();
+            _bookNamesById = new Dictionary<string, Dictionary<int, BibleBook>>();
         }
 
         public List<BibleBook> BibleBooks
@@ -24,5 +33,11 @@ namespace Biblifun.Common
             }
         }
 
+        public BibleBook GetBookById(int bookId)
+        {
+            // TODO: Lookup in database    
+
+            return _bookNamesById[_languageProvider.Language][bookId];
+        }
     }
 }

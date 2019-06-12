@@ -6,7 +6,20 @@ namespace Biblifun.Common
     {
         public int BookId { get; set; }
 
-        public List<string> Names { get; set; }
+        public string Name { get; set; }
+
+        public List<string> AlternativeNames { get; set; }
+
+        public List<string> AllNames
+        {
+            get
+            {
+                var allNames = new List<string>(AlternativeNames);
+                allNames.Insert(0, Name);
+
+                return allNames;
+            }
+        }
 
         public List<BibleChapter> Chapters { get; set; }
 
