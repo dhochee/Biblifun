@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Biblifun.WebLookup
 {
+    /// <summary>
+    /// Used to retrieve NWT scripture text from the Watchtower Online Library website.
+    /// </summary>
     public class VerseRetriever : IVerseRetriever
     {
         readonly ILanguageProvider _languageProvider;
