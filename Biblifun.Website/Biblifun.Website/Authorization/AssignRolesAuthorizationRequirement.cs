@@ -3,7 +3,7 @@
 // www.ebenmonney.com/templates
 // =============================
 
-using DAL.Core;
+using Biblifun.Data.Core;
 using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Linq;

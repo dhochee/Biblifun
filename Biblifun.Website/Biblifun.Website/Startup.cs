@@ -7,10 +7,10 @@ using AutoMapper;
 using Biblifun.Website.Authorization;
 using Biblifun.Website.Helpers;
 using Biblifun.Website.ViewModels;
-using DAL;
-using DAL.Core;
-using DAL.Core.Interfaces;
-using DAL.Models;
+using Biblifun.Data;
+using Biblifun.Data.Core;
+using Biblifun.Data.Core.Interfaces;
+using Biblifun.Data.Models;
 using IdentityServer4.AccessTokenValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -25,7 +25,7 @@ using Microsoft.IdentityModel.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Collections.Generic;
-using AppPermissions = DAL.Core.ApplicationPermissions;
+using AppPermissions = Biblifun.Data.Core.ApplicationPermissions;
 
 namespace Biblifun.Website
 {

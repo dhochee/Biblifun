@@ -1,4 +1,5 @@
 ﻿using Biblifun.Common;
+using Biblifun.WebLookup.Util;
 using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
 using StringTokenFormatter;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 namespace Biblifun.WebLookup
 {
     /// <summary>
-    /// Used to retrieve NWT scripture text from the Watchtower Online Library website.
+    /// Used to retrieve NWT scripture text from the Watchtower Online Library website (https://wol.jw.org).
     /// </summary>
     public class VerseRetriever : IVerseRetriever
     {
@@ -35,11 +36,11 @@ namespace Biblifun.WebLookup
         /// single chapter, asynchronously retrieve the language-specific HTML from the 
         /// WOL website, modifying the returned HTML in the process to suit our use.
         /// </summary>
-        public async Task<string> GetVerseHtmlAsync(IVerseSetId verseSetId)
+        public async Task<string> GetVerseHtmlAsync(VerseSetDescriptor verseSet)
         {
             string verseHtml = null;
 
-            var url = GetVerseUrl(verseSetId);
+            var url = GetVerseUrl(verseSet);
 
             try
             {
@@ -56,7 +57,7 @@ namespace Biblifun.WebLookup
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error retrieving HTML for \"{verseSetId}\".");
+                _logger.LogError(ex, $"Error retrieving HTML for \"{verseSet.Code}\".");
             }
 
             return verseHtml;
@@ -66,18 +67,16 @@ namespace Biblifun.WebLookup
         /// Given a verse set id, get the url that will retrieve the 
         /// verse from the WOL site using the configured language.
         /// </summary>
-        public string GetVerseUrl(IVerseSetId verseSetId)
+        public string GetVerseUrl(VerseSetDescriptor setDescriptor)
         {
-            var bookName = _verseParser.GetBookNameById(verseSetId.BookId);
-
-            var isSingleChapter = _verseParser.IsSingleChapterBook(verseSetId.BookId);
+            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId);
 
             var tokens = new Dictionary<string, string>
             {
                 { "book",  bookName },
-                { "chapter", isSingleChapter ? "" : $"{verseSetId.Chapter}:" },
-                { "verseStart", verseSetId.Start.ToString() },
-                { "verseEnd", verseSetId.Start == verseSetId.End ? "" : $"-{verseSetId.End}" }
+                { "chapter", setDescriptor.IsSingleChapterBook ? "" : $"{setDescriptor.Chapter}:" },
+                { "verseStart", setDescriptor.Start.ToString() },
+                { "verseEnd", setDescriptor.Start == setDescriptor.End ? "" : $"-{setDescriptor.End}" }
             };
 
             // get the URL template specified for the language
@@ -90,19 +89,23 @@ namespace Biblifun.WebLookup
         }
 
         /// <summary>
-        /// Given the HTML node for the retrieved verses, clean up for our use with the following changes:
+        /// Given the HTML article node for the retrieved verses, clean up for our use with the following changes:
         /// 
-        /// 1. Replace verse links with spans containing the same content. Add our own class to identify the verse number.
+        /// 1. Replace verse links with spans containing the same content (with our own class to identify the verse number).
         /// 2. Remove other links but preserve the content, in case there's any content that could need preserving.
         /// 3. Remove all "id" and "data-pid" attributes.
         /// 4. Remove reference and footnote character indicators.
+        /// 5. Pretty-print format the HTML.
         /// </summary>
         private string CleanVerseHtml(HtmlNode verseNode)
         {
+            // 1. Replace verse links with spans containing the same content (with our own class to identify the verse number).
             ReplaceHtmlTag(ref verseNode, "//a[contains(@class, 'vl')]", "span", "verseNumber");
 
+            // 2. Remove other links but preserve the content, in case there's any content that could need preserving.
             RemoveUnwantedHtmlTags(ref verseNode, new List<string>() { "a" });
 
+            // 3. Remove all "id" and "data-pid" attributes.
             var allChildNodes = verseNode.SelectNodes("//*");
 
             foreach(var node in allChildNodes)
@@ -111,7 +114,14 @@ namespace Biblifun.WebLookup
                 node.Attributes.Remove("data-pid");
             }
 
-            return verseNode.InnerHtml.Replace("+", "").Replace("*","").Trim();
+            // 4. Remove reference and footnote character indicators.
+            verseNode.InnerHtml = verseNode.InnerHtml.Replace("+", "").Replace("*", "").Trim();
+
+            // 5. Pretty-print format the HTML of the child nodes (not required, 
+            //    but favoring developer readability over trivial space usage).
+            string html = verseNode.ChildNodes.ToFormattedHtml();
+
+            return html;
         }
 
         /// <summary>

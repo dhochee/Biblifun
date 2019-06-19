@@ -8,13 +8,13 @@ namespace Biblifun.Common
 
         public string Name { get; set; }
 
-        public List<string> AlternativeNames { get; set; }
+        public List<string> Abbreviations { get; set; }
 
         public List<string> AllNames
         {
             get
             {
-                var allNames = new List<string>(AlternativeNames);
+                var allNames = new List<string>(Abbreviations);
                 allNames.Insert(0, Name);
 
                 return allNames;

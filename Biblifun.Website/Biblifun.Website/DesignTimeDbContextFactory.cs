@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
-using DAL;
+using Biblifun.Data;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;

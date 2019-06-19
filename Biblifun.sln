@@ -20,11 +20,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{03DEDA35
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.Common.Test", "Biblifun.Common.Test\Biblifun.Common.Test.csproj", "{95A55C39-2240-44CC-92E6-818EB9919E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.WebLookup", "Biblifun.WebLookup\Biblifun.WebLookup.csproj", "{0C15448F-157A-4985-8DAA-E787D027CAF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.WebLookup", "Biblifun.WebLookup\Biblifun.WebLookup.csproj", "{0C15448F-157A-4985-8DAA-E787D027CAF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.WebLookup.Test", "Biblifun.WebLookup.Test\Biblifun.WebLookup.Test.csproj", "{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.WebLookup.Test", "Biblifun.WebLookup.Test\Biblifun.WebLookup.Test.csproj", "{1B6DDC61-F4AF-4519-A6BD-363A9DF9D9ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.IntegrationTests", "Biblifun.IntegrationTests\Biblifun.IntegrationTests.csproj", "{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblifun.IntegrationTests", "Biblifun.IntegrationTests\Biblifun.IntegrationTests.csproj", "{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37B9C84C-2580-4620-98CB-297D5B723A9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B2BF7E8F-0220-4713-AA21-142EFE07E99A}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Clean HTML Verse Examples.xml = Docs\Clean HTML Verse Examples.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblifun.Data", "Biblifun.Data\Biblifun.Data.csproj", "{DB39E864-C2CC-412F-92EA-A2501F9CBF53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +69,10 @@ Global
 		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2507C2C7-B018-48AB-B2C1-F0F9C1A13DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB39E864-C2CC-412F-92EA-A2501F9CBF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB39E864-C2CC-412F-92EA-A2501F9CBF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB39E864-C2CC-412F-92EA-A2501F9CBF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB39E864-C2CC-412F-92EA-A2501F9CBF53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

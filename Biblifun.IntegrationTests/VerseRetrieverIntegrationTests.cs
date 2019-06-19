@@ -49,10 +49,10 @@ namespace Biblifun.IntegrationTests
             // ARRANGE
             var verseRetriever = GetVerseRetriever();
 
-            _verseParser.TryParseVerseString(verse, out IVerseSetId verseSetId);
+            _verseParser.TryParseVerseString(verse, out VerseSetDescriptor verseSet);
 
             // ACT
-            var html = await verseRetriever.GetVerseHtmlAsync(verseSetId);
+            var html = await verseRetriever.GetVerseHtmlAsync(verseSet);
 
             // ASSERT
             html.ShouldNotBeNull();
@@ -70,10 +70,10 @@ namespace Biblifun.IntegrationTests
             var verseRetriever = GetVerseRetriever();
             _languageProviderMock.Setup(lp => lp.Language).Returns("es");
 
-            _verseParser.TryParseVerseString(verse, out IVerseSetId verseSetId);
+            _verseParser.TryParseVerseString(verse, out VerseSetDescriptor verseSet);
 
             // ACT
-            var html = await verseRetriever.GetVerseHtmlAsync(verseSetId);
+            var html = await verseRetriever.GetVerseHtmlAsync(verseSet);
 
             // ASSERT
             html.ShouldNotBeNull();

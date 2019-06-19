@@ -26,10 +26,10 @@ namespace Biblifun.Common.Test
         [TestCase("40024013015", "Matthew 24:13-15")]
         [TestCase("65001012", "Jude 12")]
         [TestCase("54001001020", "1 Timothy 1:1-20")]
-        public void GetVerseDisplayText_When_valid_Then_returns_display_text(string input, string expected)
+        public void GetVerseCitationText_When_valid_Then_returns_display_text(string input, string expected)
         {
             // ARRANGE+ACT
-            var actual = _verseParser.GetVerseDisplayText(input);
+            var actual = _verseParser.GetVerseCitationText(input);
 
             // ASSERT
             actual.ShouldBe(expected);
@@ -42,7 +42,7 @@ namespace Biblifun.Common.Test
             var testInput = "Matthew 24:14";
 
             // Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.Success);
@@ -60,7 +60,7 @@ namespace Biblifun.Common.Test
             var testInput = "Matthew 24:13,14";
 
             // Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.Success);
@@ -78,7 +78,7 @@ namespace Biblifun.Common.Test
             var testInput = "Matthew 24:12-14";
 
             // Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.Success);
@@ -96,7 +96,7 @@ namespace Biblifun.Common.Test
             var testInput = "1 Tim 4:12-14";
 
             // Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.Success);
@@ -114,7 +114,7 @@ namespace Biblifun.Common.Test
             var testInput = "Jude 11,12";
 
             // Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.Success);
@@ -132,7 +132,7 @@ namespace Biblifun.Common.Test
         public void TryParseVerseString_When_commas_separated_verses_are_not_sequential_Then_invalid_syntax(string testInput)
         {
             // Arrange + Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.InvalidSyntax);
@@ -147,7 +147,7 @@ namespace Biblifun.Common.Test
         public void TryParseVerseString_When_chapter_or_verse_are_out_of_range_Then_invalid_verse(string testInput)
         {
             // Arrange + Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.InvalidVerse);
@@ -159,7 +159,7 @@ namespace Biblifun.Common.Test
         public void TryParseVerseString_When_book_name_not_followed_by_space_Then_invalid_verse(string testInput)
         {
             // Arrange + Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.InvalidVerse);
@@ -171,7 +171,7 @@ namespace Biblifun.Common.Test
         public void TryParseVerseString_When_book_name_not_found_Then_invalid_verse(string testInput)
         {
             // Arrange + Act
-            var result = _verseParser.TryParseVerseString(testInput, out IVerseSetId output);
+            var result = _verseParser.TryParseVerseString(testInput, out VerseSetDescriptor output);
 
             // Assert
             result.ShouldBe(VerseParseResult.InvalidVerse);

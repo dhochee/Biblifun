@@ -12,12 +12,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Biblifun.Website.ViewModels;
 using AutoMapper;
-using DAL.Models;
-using DAL.Core.Interfaces;
+using Biblifun.Data.Models;
+using Biblifun.Data.Core.Interfaces;
 using Biblifun.Website.Authorization;
 using Biblifun.Website.Helpers;
 using Microsoft.AspNetCore.JsonPatch;
-using DAL.Core;
+using Biblifun.Data.Core;
 using IdentityServer4.AccessTokenValidation;
 
 namespace Biblifun.Website.Controllers

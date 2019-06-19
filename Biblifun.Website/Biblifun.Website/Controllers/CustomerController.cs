@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using DAL;
+using Biblifun.Data;
 using Biblifun.Website.ViewModels;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
@@ -37,8 +37,10 @@ namespace Biblifun.Website.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var allCustomers = _unitOfWork.Customers.GetAllCustomersData();
-            return Ok(Mapper.Map<IEnumerable<CustomerViewModel>>(allCustomers));
+            //var allCustomers = _unitOfWork.Customers.GetAllCustomersData();
+            //return Ok(Mapper.Map<IEnumerable<CustomerViewModel>>(allCustomers));
+
+            return null;
         }
 
 

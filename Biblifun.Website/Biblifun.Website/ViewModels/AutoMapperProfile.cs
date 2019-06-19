@@ -4,8 +4,8 @@
 // =============================
 
 using AutoMapper;
-using DAL.Core;
-using DAL.Models;
+using Biblifun.Data.Core;
+using Biblifun.Data.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -49,14 +49,6 @@ namespace Biblifun.Website.ViewModels
             CreateMap<IdentityRoleClaim<string>, PermissionViewModel>()
                 .ConvertUsing(s => Mapper.Map<PermissionViewModel>(ApplicationPermissions.GetPermissionByValue(s.ClaimValue)));
 
-            CreateMap<Customer, CustomerViewModel>()
-                .ReverseMap();
-
-            CreateMap<Product, ProductViewModel>()
-                .ReverseMap();
-
-            CreateMap<Order, OrderViewModel>()
-                .ReverseMap();
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Biblifun.Common
 {
@@ -10,7 +9,11 @@ namespace Biblifun.Common
         InvalidVerse
     }
 
-
+    /// <summary>
+    /// Provides methods for coverting language-specific verse identifier strings 
+    /// into language-agnostic verse metadata and vice versa. Uses the language of
+    /// the underlying BibleBookProvider when not specified for any input.
+    /// </summary>
     public class VerseParser : IVerseParser
     {
         readonly IBibleBookProvider _bibleBookProvider;
@@ -20,101 +23,28 @@ namespace Biblifun.Common
             _bibleBookProvider = bibleBookProvider;
         }
 
-        public string GetBookNameById(int bookId)
-        {
-            return _bibleBookProvider.GetBookById(bookId).Name;
-        }
-
         /// <summary>
-        /// Return the language-specific verse display text for the verse or 
-        /// sequence identified by the verse set id string input.
         /// 
-        /// Example: "40024013014" input returns "Matthew 24:13,14" in English,
-        ///          and "Mateo 24:13,14" in Spanish.
         /// </summary>
-        public string GetVerseDisplayText(string verseSetId)
-        {
-            var setId = GetVerseSetFromId(verseSetId);
-
-            return GetVerseDisplayText(setId);
-        }
-
-        public string GetVerseDisplayText(IVerseSetId verseSet)
-        {
-            var book = _bibleBookProvider.GetBookById(verseSet.BookId);
-
-            var chapterString = book.IsSingleChapter ? "" : $"{verseSet.Chapter}:";
-
-            var verseString = verseSet.Start == verseSet.End ? verseSet.Start.ToString() :
-                              verseSet.End == (verseSet.Start + 1) ? $"{verseSet.Start},{verseSet.End}" :
-                              $"{verseSet.Start}-{verseSet.End}";
-
-            return $"{book.Name} {chapterString}{verseString}";
-        }
-
-        /// <summary>
-        /// Given a string identifier for a specific verse of sequence of verses, 
-        /// return a corresponding VerseSetId. The format of a verse set id string 
-        /// is: BBCCCSSSEEE where the B digits identify the book, the C digits 
-        /// identify the chapter, and the S and E digits identify the start and 
-        /// end verses of the set.
-        /// 
-        /// Example: "40024013014" = B:40 C:024 S:013 E:014 = Matthew 24:13,14
-        /// </summary>
-        public IVerseSetId GetVerseSetFromId(string verseSetId)
-        {
-            VerseSetId setId = null;
-
-            if(int.TryParse(verseSetId.Substring(0,2), out int bookId))
-            {
-                if(int.TryParse(verseSetId.Substring(2,3), out int chapter))
-                {
-                    if(int.TryParse(verseSetId.Substring(5,3), out int start))
-                    {
-                        var end = start;
-
-                        if(verseSetId.Length == 11)
-                        {
-                            int.TryParse(verseSetId.Substring(8, 3), out end);
-                        }
-
-                        setId = new VerseSetId
-                        {
-                            BookId = bookId,
-                            Chapter = chapter,
-                            Start = start,
-                            End = end
-                        };
-                    }
-                }
-            }
-
-            return setId;
-        }
-
-        public bool IsSingleChapterBook(int bookId)
-        {
-            return _bibleBookProvider.GetBookById(bookId).IsSingleChapter;
-        }
-
-        public VerseParseResult TryParseVerseString(string scriptureString, out IVerseSetId verseSet)
+        public VerseParseResult TryParseVerseString(string scriptureCitation, out VerseSetDescriptor verseSet, string language = null)
         {
             VerseParseResult result;
 
             verseSet = null;
 
-            scriptureString = scriptureString.ToLower().Trim();
+            scriptureCitation = scriptureCitation.ToLower().Trim();
 
-            if (TryParseBook(scriptureString, out BibleBook book, out string chapterVerse, out result))
+            if (TryParseBook(scriptureCitation, out BibleBook book, out string chapterVerse, out result))
             {
                 if (TryParseChapter(chapterVerse, book, out BibleChapter chapter, out string verseString, out result))
                 {
                     if (TryParseVerse(verseString, chapter, out int startVerse, out int endVerse, out result))
                     {
-                        verseSet = new VerseSetId
+                        verseSet = new VerseSetDescriptor
                         {
                             BookId = book.BookId,
                             Chapter = chapter.ChapterNumber,
+                            IsSingleChapterBook = book.IsSingleChapter,
                             Start = startVerse,
                             End = endVerse
                         };
@@ -251,6 +181,42 @@ namespace Biblifun.Common
             }
 
             return result == VerseParseResult.Success;
+        }
+
+        /// <summary>
+        /// Return the language-specific verse display text for the verse or 
+        /// sequence identified by the verse set descriptor.
+        /// </summary>
+        public string GetVerseCitationText(VerseSetDescriptor verseSet, string language = null)
+        {
+            var book = _bibleBookProvider.GetBookById(verseSet.BookId);
+
+            var chapterString = book.IsSingleChapter ? "" : $"{verseSet.Chapter}:";
+
+            var verseString = verseSet.Start == verseSet.End ? verseSet.Start.ToString() :
+                              verseSet.End == (verseSet.Start + 1) ? $"{verseSet.Start},{verseSet.End}" :
+                              $"{verseSet.Start}-{verseSet.End}";
+
+            return $"{book.Name} {chapterString}{verseString}";
+        }
+
+        /// <summary>
+        /// Return the language-specific verse display text for the verse or 
+        /// sequence identified by the verse set code.
+        /// </summary>
+        public string GetVerseCitationText(string verseSetCode, string language = null)
+        {
+            var setDescriptor = VerseSetDescriptor.FromCode(verseSetCode);
+
+            return GetVerseCitationText(setDescriptor, language);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string GetBookNameById(int bookId, string language = null)
+        {
+            return _bibleBookProvider.GetBookById(bookId).Name;
         }
     }
 }

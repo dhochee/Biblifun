@@ -1,0 +1,81 @@
+<root>
+<!-- The following samples demonstrate how the verse HTML will look when retrieved from the WOL site. -->
+
+<!-- PSALMS 83:18 -->
+
+<p class="sl">
+  <span class="v">
+    <span class="verseNum">18 </span>May people know that you, whose name is Jehovah,</span>
+</p>
+<p class="sz">
+  <span class="v">You alone are the Most High over all the earth.</span>
+</p>
+
+<!-- PSALMS 83:17,18 -->
+
+<p class="sl">
+  <span class="v">
+    <span class="verseNum">17 </span>May they be put to shame and be terrified forever;</span>
+</p>
+<p class="sz">
+  <span class="v">May they be disgraced and perish;</span>
+</p>
+<p class="sl">
+  <span class="v">
+    <span class="verseNum">18 </span>May people know that you, whose name is Jehovah,</span>
+</p>
+<p class="sz">
+  <span class="v">You alone are the Most High over all the earth.</span>
+</p>
+
+<!-- PSALMS 83:18 CHINESE -->
+
+<p class="sl">
+  <span class="v">
+    <span class="verseNum">18 </span>好讓人知道，</span>
+</p><p class="sp">
+  <span class="v">你的名是<span class="underline">耶和華</span>，</span>
+</p><p class="sp">
+  <span class="v">惟有你是統治全地的至高者。</span>
+</p>
+
+<!-- PSALMS 83:17,18 CHINESE -->
+
+<p class="sl">
+  <span class="v">
+    <span class="verseNum">17 </span>但願他們永遠蒙羞驚惶，</span>
+</p><p class="sp">
+  <span class="v">但願他們抱愧滅亡，</span>
+</p><p class="sl">
+  <span class="v">
+    <span class="verseNum">18 </span>好讓人知道，</span>
+</p><p class="sp">
+  <span class="v">你的名是<span class="underline">耶和華</span>，</span>
+</p><p class="sp">
+  <span class="v">惟有你是統治全地的至高者。</span>
+</p>
+
+<!-- NOTE: In all the following examples, the tag <p class="sb"> has been removed -->
+
+
+<!-- MATTHEW 24:14 -->
+
+<span class="v">
+  <span class="verseNum">14 </span>And this good news of the Kingdom will be preached in all the inhabited earth for a witness to all the nations, and then the end will come.</span>
+
+
+<!-- MATTHEW 24:13,14 -->
+
+<span class="v">
+  <span class="verseNum">13 </span>But the one who has endured to the end will be saved.</span>
+<span class="v">
+  <span class="verseNum">14 </span>And this good news of the Kingdom will be preached in all the inhabited earth for a witness to all the nations, and then the end will come.</span>
+
+<!-- MATTHEW 24:13,14 CHINESE -->
+
+<span class="v">
+  <span class="verseNum">13 </span>可是，忍耐到底的人，必然得救。</span>
+<span class="v">
+  <span class="verseNum">14 </span>這王國的好消息會傳遍普天下，對所有國族作見證；到時終結就會來到。</span>
+
+</root>

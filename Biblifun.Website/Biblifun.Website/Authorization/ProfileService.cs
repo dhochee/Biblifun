@@ -13,8 +13,8 @@ using IdentityServer4.Extensions;
 using IdentityServer4.Models;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Identity;
-using DAL.Core;
-using DAL.Models;
+using Biblifun.Data.Core;
+using Biblifun.Data.Models;
 
 namespace Biblifun.Website.Authorization
 {

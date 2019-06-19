@@ -74,7 +74,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_MATTHEW,
                 Name = "Matthew",
-                AlternativeNames = new List<string>() { "Matt", "Mat", "Mt" },
+                Abbreviations = new List<string>() { "Matt", "Mat", "Mt" },
                 Language = LANG_ENGLISH,
                 Chapters = new List<BibleChapter>()
             });
@@ -83,7 +83,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_1TIMOTHY,
                 Name = "1 Timothy",
-                AlternativeNames = new List<string>() { "1 Tim", "1Tim", "1 Ti", "1Ti" },
+                Abbreviations = new List<string>() { "1 Tim", "1Tim", "1 Ti", "1Ti" },
                 Language = LANG_ENGLISH,
                 Chapters = new List<BibleChapter>()
             });
@@ -91,7 +91,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_JUDE,
                 Name = "Jude",
-                AlternativeNames = new List<string>(),
+                Abbreviations = new List<string>(),
                 Language = LANG_ENGLISH,
                 Chapters = new List<BibleChapter>()
             });
@@ -109,7 +109,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_MATTHEW,
                 Name = "Mateo",
-                AlternativeNames = new List<string>() { "Mat", "Mt" },
+                Abbreviations = new List<string>() { "Mat", "Mt" },
                 Language = LANG_SPANISH,
                 Chapters = new List<BibleChapter>()
             });
@@ -118,7 +118,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_1TIMOTHY,
                 Name = "1 Timoteo",
-                AlternativeNames = new List<string>() { "1 Tim", "1Tim", "1 Ti", "1Ti" },
+                Abbreviations = new List<string>() { "1 Tim", "1Tim", "1 Ti", "1Ti" },
                 Language = LANG_SPANISH,
                 Chapters = new List<BibleChapter>()
             });
@@ -126,7 +126,7 @@ namespace Biblifun.Common.Test.Mocks
             {
                 BookId = BOOK_ID_JUDE,
                 Name = "Judas",
-                AlternativeNames = new List<string>() { "Jud" },
+                Abbreviations = new List<string>() { "Jud" },
                 Language = LANG_SPANISH,
                 Chapters = new List<BibleChapter>()
             });
