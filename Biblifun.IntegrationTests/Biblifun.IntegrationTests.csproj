@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Biblifun.Common.Test\Biblifun.Common.Test.csproj" />
     <ProjectReference Include="..\Biblifun.Common\Biblifun.Common.csproj" />
+    <ProjectReference Include="..\Biblifun.Email\Biblifun.Email.csproj" />
     <ProjectReference Include="..\Biblifun.WebLookup\Biblifun.WebLookup.csproj" />
   </ItemGroup>
 
