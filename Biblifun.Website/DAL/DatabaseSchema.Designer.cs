@@ -40,9 +40,9 @@ namespace DAL {
         
         private CategoryDataTable tableCategory;
         
-        private Category_x_ScriptureSetItemDataTable tableCategory_x_ScriptureSetItem;
+        private ScriptureSetItemCategoryDataTable tableScriptureSetItemCategory;
         
-        private Category_x_ScriptureSetDataTable tableCategory_x_ScriptureSet;
+        private ScriptureSetCategoryDataTable tableScriptureSetCategory;
         
         private global::System.Data.DataRelation relationBibleBook_BibleChapter;
         
@@ -50,13 +50,13 @@ namespace DAL {
         
         private global::System.Data.DataRelation relationScriptureSet_ScriptureSetItem;
         
-        private global::System.Data.DataRelation relationScriptureSetItem_Category_x_ScriptureSetItem;
-        
         private global::System.Data.DataRelation relationCategory_Category_x_ScriptureSetItem;
         
-        private global::System.Data.DataRelation relationScriptureSet_Category_x_ScriptureSet;
-        
         private global::System.Data.DataRelation relationCategory_Category_x_ScriptureSet;
+        
+        private global::System.Data.DataRelation relationScriptureSetItem_ScriptureSetItemCategory;
+        
+        private global::System.Data.DataRelation relationScriptureSet_ScriptureSetCategory;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -110,11 +110,11 @@ namespace DAL {
                 if ((ds.Tables["Category"] != null)) {
                     base.Tables.Add(new CategoryDataTable(ds.Tables["Category"]));
                 }
-                if ((ds.Tables["Category_x_ScriptureSetItem"] != null)) {
-                    base.Tables.Add(new Category_x_ScriptureSetItemDataTable(ds.Tables["Category_x_ScriptureSetItem"]));
+                if ((ds.Tables["ScriptureSetItemCategory"] != null)) {
+                    base.Tables.Add(new ScriptureSetItemCategoryDataTable(ds.Tables["ScriptureSetItemCategory"]));
                 }
-                if ((ds.Tables["Category_x_ScriptureSet"] != null)) {
-                    base.Tables.Add(new Category_x_ScriptureSetDataTable(ds.Tables["Category_x_ScriptureSet"]));
+                if ((ds.Tables["ScriptureSetCategory"] != null)) {
+                    base.Tables.Add(new ScriptureSetCategoryDataTable(ds.Tables["ScriptureSetCategory"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -218,9 +218,9 @@ namespace DAL {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public Category_x_ScriptureSetItemDataTable Category_x_ScriptureSetItem {
+        public ScriptureSetItemCategoryDataTable ScriptureSetItemCategory {
             get {
-                return this.tableCategory_x_ScriptureSetItem;
+                return this.tableScriptureSetItemCategory;
             }
         }
         
@@ -228,9 +228,9 @@ namespace DAL {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public Category_x_ScriptureSetDataTable Category_x_ScriptureSet {
+        public ScriptureSetCategoryDataTable ScriptureSetCategory {
             get {
-                return this.tableCategory_x_ScriptureSet;
+                return this.tableScriptureSetCategory;
             }
         }
         
@@ -325,11 +325,11 @@ namespace DAL {
                 if ((ds.Tables["Category"] != null)) {
                     base.Tables.Add(new CategoryDataTable(ds.Tables["Category"]));
                 }
-                if ((ds.Tables["Category_x_ScriptureSetItem"] != null)) {
-                    base.Tables.Add(new Category_x_ScriptureSetItemDataTable(ds.Tables["Category_x_ScriptureSetItem"]));
+                if ((ds.Tables["ScriptureSetItemCategory"] != null)) {
+                    base.Tables.Add(new ScriptureSetItemCategoryDataTable(ds.Tables["ScriptureSetItemCategory"]));
                 }
-                if ((ds.Tables["Category_x_ScriptureSet"] != null)) {
-                    base.Tables.Add(new Category_x_ScriptureSetDataTable(ds.Tables["Category_x_ScriptureSet"]));
+                if ((ds.Tables["ScriptureSetCategory"] != null)) {
+                    base.Tables.Add(new ScriptureSetCategoryDataTable(ds.Tables["ScriptureSetCategory"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -412,25 +412,25 @@ namespace DAL {
                     this.tableCategory.InitVars();
                 }
             }
-            this.tableCategory_x_ScriptureSetItem = ((Category_x_ScriptureSetItemDataTable)(base.Tables["Category_x_ScriptureSetItem"]));
+            this.tableScriptureSetItemCategory = ((ScriptureSetItemCategoryDataTable)(base.Tables["ScriptureSetItemCategory"]));
             if ((initTable == true)) {
-                if ((this.tableCategory_x_ScriptureSetItem != null)) {
-                    this.tableCategory_x_ScriptureSetItem.InitVars();
+                if ((this.tableScriptureSetItemCategory != null)) {
+                    this.tableScriptureSetItemCategory.InitVars();
                 }
             }
-            this.tableCategory_x_ScriptureSet = ((Category_x_ScriptureSetDataTable)(base.Tables["Category_x_ScriptureSet"]));
+            this.tableScriptureSetCategory = ((ScriptureSetCategoryDataTable)(base.Tables["ScriptureSetCategory"]));
             if ((initTable == true)) {
-                if ((this.tableCategory_x_ScriptureSet != null)) {
-                    this.tableCategory_x_ScriptureSet.InitVars();
+                if ((this.tableScriptureSetCategory != null)) {
+                    this.tableScriptureSetCategory.InitVars();
                 }
             }
             this.relationBibleBook_BibleChapter = this.Relations["BibleBook_BibleChapter"];
             this.relationBibleBook_BibleBookName = this.Relations["BibleBook_BibleBookName"];
             this.relationScriptureSet_ScriptureSetItem = this.Relations["ScriptureSet_ScriptureSetItem"];
-            this.relationScriptureSetItem_Category_x_ScriptureSetItem = this.Relations["ScriptureSetItem_Category_x_ScriptureSetItem"];
             this.relationCategory_Category_x_ScriptureSetItem = this.Relations["Category_Category_x_ScriptureSetItem"];
-            this.relationScriptureSet_Category_x_ScriptureSet = this.Relations["ScriptureSet_Category_x_ScriptureSet"];
             this.relationCategory_Category_x_ScriptureSet = this.Relations["Category_Category_x_ScriptureSet"];
+            this.relationScriptureSetItem_ScriptureSetItemCategory = this.Relations["ScriptureSetItem_ScriptureSetItemCategory"];
+            this.relationScriptureSet_ScriptureSetCategory = this.Relations["ScriptureSet_ScriptureSetCategory"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -457,10 +457,10 @@ namespace DAL {
             base.Tables.Add(this.tableScriptureSetItem);
             this.tableCategory = new CategoryDataTable();
             base.Tables.Add(this.tableCategory);
-            this.tableCategory_x_ScriptureSetItem = new Category_x_ScriptureSetItemDataTable();
-            base.Tables.Add(this.tableCategory_x_ScriptureSetItem);
-            this.tableCategory_x_ScriptureSet = new Category_x_ScriptureSetDataTable();
-            base.Tables.Add(this.tableCategory_x_ScriptureSet);
+            this.tableScriptureSetItemCategory = new ScriptureSetItemCategoryDataTable();
+            base.Tables.Add(this.tableScriptureSetItemCategory);
+            this.tableScriptureSetCategory = new ScriptureSetCategoryDataTable();
+            base.Tables.Add(this.tableScriptureSetCategory);
             this.relationBibleBook_BibleChapter = new global::System.Data.DataRelation("BibleBook_BibleChapter", new global::System.Data.DataColumn[] {
                         this.tableBibleBook.BibleBookIdColumn}, new global::System.Data.DataColumn[] {
                         this.tableBibleChapter.BibleBookIdColumn}, false);
@@ -473,22 +473,22 @@ namespace DAL {
                         this.tableScriptureSet.ScriptureSetIdColumn}, new global::System.Data.DataColumn[] {
                         this.tableScriptureSetItem.ScriptureSetIdColumn}, false);
             this.Relations.Add(this.relationScriptureSet_ScriptureSetItem);
-            this.relationScriptureSetItem_Category_x_ScriptureSetItem = new global::System.Data.DataRelation("ScriptureSetItem_Category_x_ScriptureSetItem", new global::System.Data.DataColumn[] {
-                        this.tableScriptureSetItem.ScriptureSetItemIdColumn}, new global::System.Data.DataColumn[] {
-                        this.tableCategory_x_ScriptureSetItem.ScriptureSetItemIdColumn}, false);
-            this.Relations.Add(this.relationScriptureSetItem_Category_x_ScriptureSetItem);
             this.relationCategory_Category_x_ScriptureSetItem = new global::System.Data.DataRelation("Category_Category_x_ScriptureSetItem", new global::System.Data.DataColumn[] {
                         this.tableCategory.CategoryIdColumn}, new global::System.Data.DataColumn[] {
-                        this.tableCategory_x_ScriptureSetItem.CategoryIdColumn}, false);
+                        this.tableScriptureSetItemCategory.CategoryIdColumn}, false);
             this.Relations.Add(this.relationCategory_Category_x_ScriptureSetItem);
-            this.relationScriptureSet_Category_x_ScriptureSet = new global::System.Data.DataRelation("ScriptureSet_Category_x_ScriptureSet", new global::System.Data.DataColumn[] {
-                        this.tableScriptureSet.ScriptureSetIdColumn}, new global::System.Data.DataColumn[] {
-                        this.tableCategory_x_ScriptureSet.ScriptureSetIdColumn}, false);
-            this.Relations.Add(this.relationScriptureSet_Category_x_ScriptureSet);
             this.relationCategory_Category_x_ScriptureSet = new global::System.Data.DataRelation("Category_Category_x_ScriptureSet", new global::System.Data.DataColumn[] {
                         this.tableCategory.CategoryIdColumn}, new global::System.Data.DataColumn[] {
-                        this.tableCategory_x_ScriptureSet.CategoryIdColumn}, false);
+                        this.tableScriptureSetCategory.CategoryIdColumn}, false);
             this.Relations.Add(this.relationCategory_Category_x_ScriptureSet);
+            this.relationScriptureSetItem_ScriptureSetItemCategory = new global::System.Data.DataRelation("ScriptureSetItem_ScriptureSetItemCategory", new global::System.Data.DataColumn[] {
+                        this.tableScriptureSetItem.ScriptureSetItemIdColumn}, new global::System.Data.DataColumn[] {
+                        this.tableScriptureSetItemCategory.ScriptureSetItemIdColumn}, false);
+            this.Relations.Add(this.relationScriptureSetItem_ScriptureSetItemCategory);
+            this.relationScriptureSet_ScriptureSetCategory = new global::System.Data.DataRelation("ScriptureSet_ScriptureSetCategory", new global::System.Data.DataColumn[] {
+                        this.tableScriptureSet.ScriptureSetIdColumn}, new global::System.Data.DataColumn[] {
+                        this.tableScriptureSetCategory.ScriptureSetIdColumn}, false);
+            this.Relations.Add(this.relationScriptureSet_ScriptureSetCategory);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -541,13 +541,13 @@ namespace DAL {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private bool ShouldSerializeCategory_x_ScriptureSetItem() {
+        private bool ShouldSerializeScriptureSetItemCategory() {
             return false;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private bool ShouldSerializeCategory_x_ScriptureSet() {
+        private bool ShouldSerializeScriptureSetCategory() {
             return false;
         }
         
@@ -631,10 +631,10 @@ namespace DAL {
         public delegate void CategoryRowChangeEventHandler(object sender, CategoryRowChangeEvent e);
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public delegate void Category_x_ScriptureSetItemRowChangeEventHandler(object sender, Category_x_ScriptureSetItemRowChangeEvent e);
+        public delegate void ScriptureSetItemCategoryRowChangeEventHandler(object sender, ScriptureSetItemCategoryRowChangeEvent e);
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public delegate void Category_x_ScriptureSetRowChangeEventHandler(object sender, Category_x_ScriptureSetRowChangeEvent e);
+        public delegate void ScriptureSetCategoryRowChangeEventHandler(object sender, ScriptureSetCategoryRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -922,6 +922,8 @@ namespace DAL {
             
             private global::System.Data.DataColumn columnBibleBookId;
             
+            private global::System.Data.DataColumn columnChapterNumber;
+            
             private global::System.Data.DataColumn columnTotalVerses;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -975,6 +977,14 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ChapterNumberColumn {
+                get {
+                    return this.columnChapterNumber;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn TotalVersesColumn {
                 get {
                     return this.columnTotalVerses;
@@ -1018,11 +1028,12 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public BibleChapterRow AddBibleChapterRow(string BibleChapterId, BibleBookRow parentBibleBookRowByBibleBook_BibleChapter, string TotalVerses) {
+            public BibleChapterRow AddBibleChapterRow(string BibleChapterId, BibleBookRow parentBibleBookRowByBibleBook_BibleChapter, string ChapterNumber, string TotalVerses) {
                 BibleChapterRow rowBibleChapterRow = ((BibleChapterRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         BibleChapterId,
                         null,
+                        ChapterNumber,
                         TotalVerses};
                 if ((parentBibleBookRowByBibleBook_BibleChapter != null)) {
                     columnValuesArray[1] = parentBibleBookRowByBibleBook_BibleChapter[0];
@@ -1051,6 +1062,7 @@ namespace DAL {
             internal void InitVars() {
                 this.columnBibleChapterId = base.Columns["BibleChapterId"];
                 this.columnBibleBookId = base.Columns["BibleBookId"];
+                this.columnChapterNumber = base.Columns["ChapterNumber"];
                 this.columnTotalVerses = base.Columns["TotalVerses"];
             }
             
@@ -1061,6 +1073,8 @@ namespace DAL {
                 base.Columns.Add(this.columnBibleChapterId);
                 this.columnBibleBookId = new global::System.Data.DataColumn("BibleBookId", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBibleBookId);
+                this.columnChapterNumber = new global::System.Data.DataColumn("ChapterNumber", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnChapterNumber);
                 this.columnTotalVerses = new global::System.Data.DataColumn("TotalVerses", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTotalVerses);
             }
@@ -1204,7 +1218,7 @@ namespace DAL {
             
             private global::System.Data.DataColumn columnName;
             
-            private global::System.Data.DataColumn columnAbbreviations;
+            private global::System.Data.DataColumn columnAlternateIdentifiers;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -1273,9 +1287,9 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn AbbreviationsColumn {
+            public global::System.Data.DataColumn AlternateIdentifiersColumn {
                 get {
-                    return this.columnAbbreviations;
+                    return this.columnAlternateIdentifiers;
                 }
             }
             
@@ -1316,14 +1330,14 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public BibleBookNameRow AddBibleBookNameRow(string BibleBookNameId, BibleBookRow parentBibleBookRowByBibleBook_BibleBookName, string Language, string Name, string Abbreviations) {
+            public BibleBookNameRow AddBibleBookNameRow(string BibleBookNameId, BibleBookRow parentBibleBookRowByBibleBook_BibleBookName, string Language, string Name, string AlternateIdentifiers) {
                 BibleBookNameRow rowBibleBookNameRow = ((BibleBookNameRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         BibleBookNameId,
                         null,
                         Language,
                         Name,
-                        Abbreviations};
+                        AlternateIdentifiers};
                 if ((parentBibleBookRowByBibleBook_BibleBookName != null)) {
                     columnValuesArray[1] = parentBibleBookRowByBibleBook_BibleBookName[0];
                 }
@@ -1353,7 +1367,7 @@ namespace DAL {
                 this.columnBibleBookId = base.Columns["BibleBookId"];
                 this.columnLanguage = base.Columns["Language"];
                 this.columnName = base.Columns["Name"];
-                this.columnAbbreviations = base.Columns["Abbreviations"];
+                this.columnAlternateIdentifiers = base.Columns["AlternateIdentifiers"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1367,8 +1381,8 @@ namespace DAL {
                 base.Columns.Add(this.columnLanguage);
                 this.columnName = new global::System.Data.DataColumn("Name", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnName);
-                this.columnAbbreviations = new global::System.Data.DataColumn("Abbreviations", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnAbbreviations);
+                this.columnAlternateIdentifiers = new global::System.Data.DataColumn("AlternateIdentifiers", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAlternateIdentifiers);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3256,16 +3270,16 @@ namespace DAL {
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class Category_x_ScriptureSetItemDataTable : global::System.Data.TypedTableBase<Category_x_ScriptureSetItemRow> {
-            
-            private global::System.Data.DataColumn columnCategoryId;
+        public partial class ScriptureSetItemCategoryDataTable : global::System.Data.TypedTableBase<ScriptureSetItemCategoryRow> {
             
             private global::System.Data.DataColumn columnScriptureSetItemId;
             
+            private global::System.Data.DataColumn columnCategoryId;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemDataTable() {
-                this.TableName = "Category_x_ScriptureSetItem";
+            public ScriptureSetItemCategoryDataTable() {
+                this.TableName = "ScriptureSetItemCategory";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -3273,7 +3287,7 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal Category_x_ScriptureSetItemDataTable(global::System.Data.DataTable table) {
+            internal ScriptureSetItemCategoryDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -3290,17 +3304,9 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            protected Category_x_ScriptureSetItemDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected ScriptureSetItemCategoryDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CategoryIdColumn {
-                get {
-                    return this.columnCategoryId;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3308,6 +3314,14 @@ namespace DAL {
             public global::System.Data.DataColumn ScriptureSetItemIdColumn {
                 get {
                     return this.columnScriptureSetItemId;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn CategoryIdColumn {
+                get {
+                    return this.columnCategoryId;
                 }
             }
             
@@ -3322,52 +3336,52 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow this[int index] {
+            public ScriptureSetItemCategoryRow this[int index] {
                 get {
-                    return ((Category_x_ScriptureSetItemRow)(this.Rows[index]));
+                    return ((ScriptureSetItemCategoryRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetItemRowChangeEventHandler Category_x_ScriptureSetItemRowChanging;
+            public event ScriptureSetItemCategoryRowChangeEventHandler ScriptureSetItemCategoryRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetItemRowChangeEventHandler Category_x_ScriptureSetItemRowChanged;
+            public event ScriptureSetItemCategoryRowChangeEventHandler ScriptureSetItemCategoryRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetItemRowChangeEventHandler Category_x_ScriptureSetItemRowDeleting;
+            public event ScriptureSetItemCategoryRowChangeEventHandler ScriptureSetItemCategoryRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetItemRowChangeEventHandler Category_x_ScriptureSetItemRowDeleted;
+            public event ScriptureSetItemCategoryRowChangeEventHandler ScriptureSetItemCategoryRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void AddCategory_x_ScriptureSetItemRow(Category_x_ScriptureSetItemRow row) {
+            public void AddScriptureSetItemCategoryRow(ScriptureSetItemCategoryRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow AddCategory_x_ScriptureSetItemRow(CategoryRow parentCategoryRowByCategory_Category_x_ScriptureSetItem, ScriptureSetItemRow parentScriptureSetItemRowByScriptureSetItem_Category_x_ScriptureSetItem) {
-                Category_x_ScriptureSetItemRow rowCategory_x_ScriptureSetItemRow = ((Category_x_ScriptureSetItemRow)(this.NewRow()));
+            public ScriptureSetItemCategoryRow AddScriptureSetItemCategoryRow(ScriptureSetItemRow parentScriptureSetItemRowByScriptureSetItem_ScriptureSetItemCategory, CategoryRow parentCategoryRowByCategory_Category_x_ScriptureSetItem) {
+                ScriptureSetItemCategoryRow rowScriptureSetItemCategoryRow = ((ScriptureSetItemCategoryRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         null};
+                if ((parentScriptureSetItemRowByScriptureSetItem_ScriptureSetItemCategory != null)) {
+                    columnValuesArray[0] = parentScriptureSetItemRowByScriptureSetItem_ScriptureSetItemCategory[0];
+                }
                 if ((parentCategoryRowByCategory_Category_x_ScriptureSetItem != null)) {
-                    columnValuesArray[0] = parentCategoryRowByCategory_Category_x_ScriptureSetItem[0];
+                    columnValuesArray[1] = parentCategoryRowByCategory_Category_x_ScriptureSetItem[0];
                 }
-                if ((parentScriptureSetItemRowByScriptureSetItem_Category_x_ScriptureSetItem != null)) {
-                    columnValuesArray[1] = parentScriptureSetItemRowByScriptureSetItem_Category_x_ScriptureSetItem[0];
-                }
-                rowCategory_x_ScriptureSetItemRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowCategory_x_ScriptureSetItemRow);
-                return rowCategory_x_ScriptureSetItemRow;
+                rowScriptureSetItemCategoryRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowScriptureSetItemCategoryRow);
+                return rowScriptureSetItemCategoryRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                Category_x_ScriptureSetItemDataTable cln = ((Category_x_ScriptureSetItemDataTable)(base.Clone()));
+                ScriptureSetItemCategoryDataTable cln = ((ScriptureSetItemCategoryDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -3375,49 +3389,49 @@ namespace DAL {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new Category_x_ScriptureSetItemDataTable();
+                return new ScriptureSetItemCategoryDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnCategoryId = base.Columns["CategoryId"];
                 this.columnScriptureSetItemId = base.Columns["ScriptureSetItemId"];
+                this.columnCategoryId = base.Columns["CategoryId"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnCategoryId = new global::System.Data.DataColumn("CategoryId", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCategoryId);
                 this.columnScriptureSetItemId = new global::System.Data.DataColumn("ScriptureSetItemId", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnScriptureSetItemId);
+                this.columnCategoryId = new global::System.Data.DataColumn("CategoryId", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCategoryId);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow NewCategory_x_ScriptureSetItemRow() {
-                return ((Category_x_ScriptureSetItemRow)(this.NewRow()));
+            public ScriptureSetItemCategoryRow NewScriptureSetItemCategoryRow() {
+                return ((ScriptureSetItemCategoryRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new Category_x_ScriptureSetItemRow(builder);
+                return new ScriptureSetItemCategoryRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(Category_x_ScriptureSetItemRow);
+                return typeof(ScriptureSetItemCategoryRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.Category_x_ScriptureSetItemRowChanged != null)) {
-                    this.Category_x_ScriptureSetItemRowChanged(this, new Category_x_ScriptureSetItemRowChangeEvent(((Category_x_ScriptureSetItemRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetItemCategoryRowChanged != null)) {
+                    this.ScriptureSetItemCategoryRowChanged(this, new ScriptureSetItemCategoryRowChangeEvent(((ScriptureSetItemCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3425,8 +3439,8 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.Category_x_ScriptureSetItemRowChanging != null)) {
-                    this.Category_x_ScriptureSetItemRowChanging(this, new Category_x_ScriptureSetItemRowChangeEvent(((Category_x_ScriptureSetItemRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetItemCategoryRowChanging != null)) {
+                    this.ScriptureSetItemCategoryRowChanging(this, new ScriptureSetItemCategoryRowChangeEvent(((ScriptureSetItemCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3434,8 +3448,8 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.Category_x_ScriptureSetItemRowDeleted != null)) {
-                    this.Category_x_ScriptureSetItemRowDeleted(this, new Category_x_ScriptureSetItemRowChangeEvent(((Category_x_ScriptureSetItemRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetItemCategoryRowDeleted != null)) {
+                    this.ScriptureSetItemCategoryRowDeleted(this, new ScriptureSetItemCategoryRowChangeEvent(((ScriptureSetItemCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3443,14 +3457,14 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.Category_x_ScriptureSetItemRowDeleting != null)) {
-                    this.Category_x_ScriptureSetItemRowDeleting(this, new Category_x_ScriptureSetItemRowChangeEvent(((Category_x_ScriptureSetItemRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetItemCategoryRowDeleting != null)) {
+                    this.ScriptureSetItemCategoryRowDeleting(this, new ScriptureSetItemCategoryRowChangeEvent(((ScriptureSetItemCategoryRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void RemoveCategory_x_ScriptureSetItemRow(Category_x_ScriptureSetItemRow row) {
+            public void RemoveScriptureSetItemCategoryRow(ScriptureSetItemCategoryRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -3477,7 +3491,7 @@ namespace DAL {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "Category_x_ScriptureSetItemDataTable";
+                attribute2.FixedValue = "ScriptureSetItemCategoryDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -3523,16 +3537,16 @@ namespace DAL {
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class Category_x_ScriptureSetDataTable : global::System.Data.TypedTableBase<Category_x_ScriptureSetRow> {
-            
-            private global::System.Data.DataColumn columnCategoryId;
+        public partial class ScriptureSetCategoryDataTable : global::System.Data.TypedTableBase<ScriptureSetCategoryRow> {
             
             private global::System.Data.DataColumn columnScriptureSetId;
             
+            private global::System.Data.DataColumn columnCategoryId;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetDataTable() {
-                this.TableName = "Category_x_ScriptureSet";
+            public ScriptureSetCategoryDataTable() {
+                this.TableName = "ScriptureSetCategory";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -3540,7 +3554,7 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal Category_x_ScriptureSetDataTable(global::System.Data.DataTable table) {
+            internal ScriptureSetCategoryDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -3557,17 +3571,9 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            protected Category_x_ScriptureSetDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected ScriptureSetCategoryDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CategoryIdColumn {
-                get {
-                    return this.columnCategoryId;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3575,6 +3581,14 @@ namespace DAL {
             public global::System.Data.DataColumn ScriptureSetIdColumn {
                 get {
                     return this.columnScriptureSetId;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn CategoryIdColumn {
+                get {
+                    return this.columnCategoryId;
                 }
             }
             
@@ -3589,52 +3603,52 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow this[int index] {
+            public ScriptureSetCategoryRow this[int index] {
                 get {
-                    return ((Category_x_ScriptureSetRow)(this.Rows[index]));
+                    return ((ScriptureSetCategoryRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetRowChangeEventHandler Category_x_ScriptureSetRowChanging;
+            public event ScriptureSetCategoryRowChangeEventHandler ScriptureSetCategoryRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetRowChangeEventHandler Category_x_ScriptureSetRowChanged;
+            public event ScriptureSetCategoryRowChangeEventHandler ScriptureSetCategoryRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetRowChangeEventHandler Category_x_ScriptureSetRowDeleting;
+            public event ScriptureSetCategoryRowChangeEventHandler ScriptureSetCategoryRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event Category_x_ScriptureSetRowChangeEventHandler Category_x_ScriptureSetRowDeleted;
+            public event ScriptureSetCategoryRowChangeEventHandler ScriptureSetCategoryRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void AddCategory_x_ScriptureSetRow(Category_x_ScriptureSetRow row) {
+            public void AddScriptureSetCategoryRow(ScriptureSetCategoryRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow AddCategory_x_ScriptureSetRow(CategoryRow parentCategoryRowByCategory_Category_x_ScriptureSet, ScriptureSetRow parentScriptureSetRowByScriptureSet_Category_x_ScriptureSet) {
-                Category_x_ScriptureSetRow rowCategory_x_ScriptureSetRow = ((Category_x_ScriptureSetRow)(this.NewRow()));
+            public ScriptureSetCategoryRow AddScriptureSetCategoryRow(ScriptureSetRow parentScriptureSetRowByScriptureSet_ScriptureSetCategory, CategoryRow parentCategoryRowByCategory_Category_x_ScriptureSet) {
+                ScriptureSetCategoryRow rowScriptureSetCategoryRow = ((ScriptureSetCategoryRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         null};
+                if ((parentScriptureSetRowByScriptureSet_ScriptureSetCategory != null)) {
+                    columnValuesArray[0] = parentScriptureSetRowByScriptureSet_ScriptureSetCategory[0];
+                }
                 if ((parentCategoryRowByCategory_Category_x_ScriptureSet != null)) {
-                    columnValuesArray[0] = parentCategoryRowByCategory_Category_x_ScriptureSet[0];
+                    columnValuesArray[1] = parentCategoryRowByCategory_Category_x_ScriptureSet[0];
                 }
-                if ((parentScriptureSetRowByScriptureSet_Category_x_ScriptureSet != null)) {
-                    columnValuesArray[1] = parentScriptureSetRowByScriptureSet_Category_x_ScriptureSet[0];
-                }
-                rowCategory_x_ScriptureSetRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowCategory_x_ScriptureSetRow);
-                return rowCategory_x_ScriptureSetRow;
+                rowScriptureSetCategoryRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowScriptureSetCategoryRow);
+                return rowScriptureSetCategoryRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                Category_x_ScriptureSetDataTable cln = ((Category_x_ScriptureSetDataTable)(base.Clone()));
+                ScriptureSetCategoryDataTable cln = ((ScriptureSetCategoryDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -3642,49 +3656,49 @@ namespace DAL {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new Category_x_ScriptureSetDataTable();
+                return new ScriptureSetCategoryDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnCategoryId = base.Columns["CategoryId"];
                 this.columnScriptureSetId = base.Columns["ScriptureSetId"];
+                this.columnCategoryId = base.Columns["CategoryId"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnCategoryId = new global::System.Data.DataColumn("CategoryId", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCategoryId);
                 this.columnScriptureSetId = new global::System.Data.DataColumn("ScriptureSetId", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnScriptureSetId);
+                this.columnCategoryId = new global::System.Data.DataColumn("CategoryId", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCategoryId);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow NewCategory_x_ScriptureSetRow() {
-                return ((Category_x_ScriptureSetRow)(this.NewRow()));
+            public ScriptureSetCategoryRow NewScriptureSetCategoryRow() {
+                return ((ScriptureSetCategoryRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new Category_x_ScriptureSetRow(builder);
+                return new ScriptureSetCategoryRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(Category_x_ScriptureSetRow);
+                return typeof(ScriptureSetCategoryRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.Category_x_ScriptureSetRowChanged != null)) {
-                    this.Category_x_ScriptureSetRowChanged(this, new Category_x_ScriptureSetRowChangeEvent(((Category_x_ScriptureSetRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetCategoryRowChanged != null)) {
+                    this.ScriptureSetCategoryRowChanged(this, new ScriptureSetCategoryRowChangeEvent(((ScriptureSetCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3692,8 +3706,8 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.Category_x_ScriptureSetRowChanging != null)) {
-                    this.Category_x_ScriptureSetRowChanging(this, new Category_x_ScriptureSetRowChangeEvent(((Category_x_ScriptureSetRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetCategoryRowChanging != null)) {
+                    this.ScriptureSetCategoryRowChanging(this, new ScriptureSetCategoryRowChangeEvent(((ScriptureSetCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3701,8 +3715,8 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.Category_x_ScriptureSetRowDeleted != null)) {
-                    this.Category_x_ScriptureSetRowDeleted(this, new Category_x_ScriptureSetRowChangeEvent(((Category_x_ScriptureSetRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetCategoryRowDeleted != null)) {
+                    this.ScriptureSetCategoryRowDeleted(this, new ScriptureSetCategoryRowChangeEvent(((ScriptureSetCategoryRow)(e.Row)), e.Action));
                 }
             }
             
@@ -3710,14 +3724,14 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.Category_x_ScriptureSetRowDeleting != null)) {
-                    this.Category_x_ScriptureSetRowDeleting(this, new Category_x_ScriptureSetRowChangeEvent(((Category_x_ScriptureSetRow)(e.Row)), e.Action));
+                if ((this.ScriptureSetCategoryRowDeleting != null)) {
+                    this.ScriptureSetCategoryRowDeleting(this, new ScriptureSetCategoryRowChangeEvent(((ScriptureSetCategoryRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void RemoveCategory_x_ScriptureSetRow(Category_x_ScriptureSetRow row) {
+            public void RemoveScriptureSetCategoryRow(ScriptureSetCategoryRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -3744,7 +3758,7 @@ namespace DAL {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "Category_x_ScriptureSetDataTable";
+                attribute2.FixedValue = "ScriptureSetCategoryDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -3954,6 +3968,22 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string ChapterNumber {
+                get {
+                    try {
+                        return ((string)(this[this.tableBibleChapter.ChapterNumberColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ChapterNumber\' in table \'BibleChapter\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableBibleChapter.ChapterNumberColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public string TotalVerses {
                 get {
                     try {
@@ -4001,6 +4031,18 @@ namespace DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetBibleBookIdNull() {
                 this[this.tableBibleChapter.BibleBookIdColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsChapterNumberNull() {
+                return this.IsNull(this.tableBibleChapter.ChapterNumberColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetChapterNumberNull() {
+                this[this.tableBibleChapter.ChapterNumberColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4096,17 +4138,17 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string Abbreviations {
+            public string AlternateIdentifiers {
                 get {
                     try {
-                        return ((string)(this[this.tableBibleBookName.AbbreviationsColumn]));
+                        return ((string)(this[this.tableBibleBookName.AlternateIdentifiersColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Abbreviations\' in table \'BibleBookName\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'AlternateIdentifiers\' in table \'BibleBookName\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableBibleBookName.AbbreviationsColumn] = value;
+                    this[this.tableBibleBookName.AlternateIdentifiersColumn] = value;
                 }
             }
             
@@ -4171,14 +4213,14 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsAbbreviationsNull() {
-                return this.IsNull(this.tableBibleBookName.AbbreviationsColumn);
+            public bool IsAlternateIdentifiersNull() {
+                return this.IsNull(this.tableBibleBookName.AlternateIdentifiersColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetAbbreviationsNull() {
-                this[this.tableBibleBookName.AbbreviationsColumn] = global::System.Convert.DBNull;
+            public void SetAlternateIdentifiersNull() {
+                this[this.tableBibleBookName.AlternateIdentifiersColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -4967,12 +5009,12 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow[] GetCategory_x_ScriptureSetRows() {
-                if ((this.Table.ChildRelations["ScriptureSet_Category_x_ScriptureSet"] == null)) {
-                    return new Category_x_ScriptureSetRow[0];
+            public ScriptureSetCategoryRow[] GetScriptureSetCategoryRows() {
+                if ((this.Table.ChildRelations["ScriptureSet_ScriptureSetCategory"] == null)) {
+                    return new ScriptureSetCategoryRow[0];
                 }
                 else {
-                    return ((Category_x_ScriptureSetRow[])(base.GetChildRows(this.Table.ChildRelations["ScriptureSet_Category_x_ScriptureSet"])));
+                    return ((ScriptureSetCategoryRow[])(base.GetChildRows(this.Table.ChildRelations["ScriptureSet_ScriptureSetCategory"])));
                 }
             }
         }
@@ -5228,12 +5270,12 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow[] GetCategory_x_ScriptureSetItemRows() {
-                if ((this.Table.ChildRelations["ScriptureSetItem_Category_x_ScriptureSetItem"] == null)) {
-                    return new Category_x_ScriptureSetItemRow[0];
+            public ScriptureSetItemCategoryRow[] GetScriptureSetItemCategoryRows() {
+                if ((this.Table.ChildRelations["ScriptureSetItem_ScriptureSetItemCategory"] == null)) {
+                    return new ScriptureSetItemCategoryRow[0];
                 }
                 else {
-                    return ((Category_x_ScriptureSetItemRow[])(base.GetChildRows(this.Table.ChildRelations["ScriptureSetItem_Category_x_ScriptureSetItem"])));
+                    return ((ScriptureSetItemCategoryRow[])(base.GetChildRows(this.Table.ChildRelations["ScriptureSetItem_ScriptureSetItemCategory"])));
                 }
             }
         }
@@ -5478,23 +5520,23 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow[] GetCategory_x_ScriptureSetItemRows() {
+            public ScriptureSetItemCategoryRow[] GetScriptureSetItemCategoryRows() {
                 if ((this.Table.ChildRelations["Category_Category_x_ScriptureSetItem"] == null)) {
-                    return new Category_x_ScriptureSetItemRow[0];
+                    return new ScriptureSetItemCategoryRow[0];
                 }
                 else {
-                    return ((Category_x_ScriptureSetItemRow[])(base.GetChildRows(this.Table.ChildRelations["Category_Category_x_ScriptureSetItem"])));
+                    return ((ScriptureSetItemCategoryRow[])(base.GetChildRows(this.Table.ChildRelations["Category_Category_x_ScriptureSetItem"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow[] GetCategory_x_ScriptureSetRows() {
+            public ScriptureSetCategoryRow[] GetScriptureSetCategoryRows() {
                 if ((this.Table.ChildRelations["Category_Category_x_ScriptureSet"] == null)) {
-                    return new Category_x_ScriptureSetRow[0];
+                    return new ScriptureSetCategoryRow[0];
                 }
                 else {
-                    return ((Category_x_ScriptureSetRow[])(base.GetChildRows(this.Table.ChildRelations["Category_Category_x_ScriptureSet"])));
+                    return ((ScriptureSetCategoryRow[])(base.GetChildRows(this.Table.ChildRelations["Category_Category_x_ScriptureSet"])));
                 }
             }
         }
@@ -5502,32 +5544,15 @@ namespace DAL {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class Category_x_ScriptureSetItemRow : global::System.Data.DataRow {
+        public partial class ScriptureSetItemCategoryRow : global::System.Data.DataRow {
             
-            private Category_x_ScriptureSetItemDataTable tableCategory_x_ScriptureSetItem;
+            private ScriptureSetItemCategoryDataTable tableScriptureSetItemCategory;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal Category_x_ScriptureSetItemRow(global::System.Data.DataRowBuilder rb) : 
+            internal ScriptureSetItemCategoryRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableCategory_x_ScriptureSetItem = ((Category_x_ScriptureSetItemDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string CategoryId {
-                get {
-                    try {
-                        return ((string)(this[this.tableCategory_x_ScriptureSetItem.CategoryIdColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'CategoryId\' in table \'Category_x_ScriptureSetItem\' is DBNul" +
-                                "l.", e);
-                    }
-                }
-                set {
-                    this[this.tableCategory_x_ScriptureSetItem.CategoryIdColumn] = value;
-                }
+                this.tableScriptureSetItemCategory = ((ScriptureSetItemCategoryDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5535,26 +5560,31 @@ namespace DAL {
             public string ScriptureSetItemId {
                 get {
                     try {
-                        return ((string)(this[this.tableCategory_x_ScriptureSetItem.ScriptureSetItemIdColumn]));
+                        return ((string)(this[this.tableScriptureSetItemCategory.ScriptureSetItemIdColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'ScriptureSetItemId\' in table \'Category_x_ScriptureSetItem\' " +
-                                "is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'ScriptureSetItemId\' in table \'ScriptureSetItemCategory\' is " +
+                                "DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableCategory_x_ScriptureSetItem.ScriptureSetItemIdColumn] = value;
+                    this[this.tableScriptureSetItemCategory.ScriptureSetItemIdColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public ScriptureSetItemRow ScriptureSetItemRow {
+            public string CategoryId {
                 get {
-                    return ((ScriptureSetItemRow)(this.GetParentRow(this.Table.ParentRelations["ScriptureSetItem_Category_x_ScriptureSetItem"])));
+                    try {
+                        return ((string)(this[this.tableScriptureSetItemCategory.CategoryIdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CategoryId\' in table \'ScriptureSetItemCategory\' is DBNull.", e);
+                    }
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["ScriptureSetItem_Category_x_ScriptureSetItem"]);
+                    this[this.tableScriptureSetItemCategory.CategoryIdColumn] = value;
                 }
             }
             
@@ -5571,57 +5601,52 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCategoryIdNull() {
-                return this.IsNull(this.tableCategory_x_ScriptureSetItem.CategoryIdColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCategoryIdNull() {
-                this[this.tableCategory_x_ScriptureSetItem.CategoryIdColumn] = global::System.Convert.DBNull;
+            public ScriptureSetItemRow ScriptureSetItemRow {
+                get {
+                    return ((ScriptureSetItemRow)(this.GetParentRow(this.Table.ParentRelations["ScriptureSetItem_ScriptureSetItemCategory"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["ScriptureSetItem_ScriptureSetItemCategory"]);
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsScriptureSetItemIdNull() {
-                return this.IsNull(this.tableCategory_x_ScriptureSetItem.ScriptureSetItemIdColumn);
+                return this.IsNull(this.tableScriptureSetItemCategory.ScriptureSetItemIdColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetScriptureSetItemIdNull() {
-                this[this.tableCategory_x_ScriptureSetItem.ScriptureSetItemIdColumn] = global::System.Convert.DBNull;
+                this[this.tableScriptureSetItemCategory.ScriptureSetItemIdColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCategoryIdNull() {
+                return this.IsNull(this.tableScriptureSetItemCategory.CategoryIdColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCategoryIdNull() {
+                this[this.tableScriptureSetItemCategory.CategoryIdColumn] = global::System.Convert.DBNull;
             }
         }
         
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class Category_x_ScriptureSetRow : global::System.Data.DataRow {
+        public partial class ScriptureSetCategoryRow : global::System.Data.DataRow {
             
-            private Category_x_ScriptureSetDataTable tableCategory_x_ScriptureSet;
+            private ScriptureSetCategoryDataTable tableScriptureSetCategory;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal Category_x_ScriptureSetRow(global::System.Data.DataRowBuilder rb) : 
+            internal ScriptureSetCategoryRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableCategory_x_ScriptureSet = ((Category_x_ScriptureSetDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string CategoryId {
-                get {
-                    try {
-                        return ((string)(this[this.tableCategory_x_ScriptureSet.CategoryIdColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'CategoryId\' in table \'Category_x_ScriptureSet\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableCategory_x_ScriptureSet.CategoryIdColumn] = value;
-                }
+                this.tableScriptureSetCategory = ((ScriptureSetCategoryDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5629,26 +5654,30 @@ namespace DAL {
             public string ScriptureSetId {
                 get {
                     try {
-                        return ((string)(this[this.tableCategory_x_ScriptureSet.ScriptureSetIdColumn]));
+                        return ((string)(this[this.tableScriptureSetCategory.ScriptureSetIdColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'ScriptureSetId\' in table \'Category_x_ScriptureSet\' is DBNul" +
-                                "l.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'ScriptureSetId\' in table \'ScriptureSetCategory\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableCategory_x_ScriptureSet.ScriptureSetIdColumn] = value;
+                    this[this.tableScriptureSetCategory.ScriptureSetIdColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public ScriptureSetRow ScriptureSetRow {
+            public string CategoryId {
                 get {
-                    return ((ScriptureSetRow)(this.GetParentRow(this.Table.ParentRelations["ScriptureSet_Category_x_ScriptureSet"])));
+                    try {
+                        return ((string)(this[this.tableScriptureSetCategory.CategoryIdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CategoryId\' in table \'ScriptureSetCategory\' is DBNull.", e);
+                    }
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["ScriptureSet_Category_x_ScriptureSet"]);
+                    this[this.tableScriptureSetCategory.CategoryIdColumn] = value;
                 }
             }
             
@@ -5665,26 +5694,37 @@ namespace DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCategoryIdNull() {
-                return this.IsNull(this.tableCategory_x_ScriptureSet.CategoryIdColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCategoryIdNull() {
-                this[this.tableCategory_x_ScriptureSet.CategoryIdColumn] = global::System.Convert.DBNull;
+            public ScriptureSetRow ScriptureSetRow {
+                get {
+                    return ((ScriptureSetRow)(this.GetParentRow(this.Table.ParentRelations["ScriptureSet_ScriptureSetCategory"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["ScriptureSet_ScriptureSetCategory"]);
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsScriptureSetIdNull() {
-                return this.IsNull(this.tableCategory_x_ScriptureSet.ScriptureSetIdColumn);
+                return this.IsNull(this.tableScriptureSetCategory.ScriptureSetIdColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetScriptureSetIdNull() {
-                this[this.tableCategory_x_ScriptureSet.ScriptureSetIdColumn] = global::System.Convert.DBNull;
+                this[this.tableScriptureSetCategory.ScriptureSetIdColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCategoryIdNull() {
+                return this.IsNull(this.tableScriptureSetCategory.CategoryIdColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCategoryIdNull() {
+                this[this.tableScriptureSetCategory.CategoryIdColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -5964,22 +6004,22 @@ namespace DAL {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public class Category_x_ScriptureSetItemRowChangeEvent : global::System.EventArgs {
+        public class ScriptureSetItemCategoryRowChangeEvent : global::System.EventArgs {
             
-            private Category_x_ScriptureSetItemRow eventRow;
+            private ScriptureSetItemCategoryRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRowChangeEvent(Category_x_ScriptureSetItemRow row, global::System.Data.DataRowAction action) {
+            public ScriptureSetItemCategoryRowChangeEvent(ScriptureSetItemCategoryRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetItemRow Row {
+            public ScriptureSetItemCategoryRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -5998,22 +6038,22 @@ namespace DAL {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public class Category_x_ScriptureSetRowChangeEvent : global::System.EventArgs {
+        public class ScriptureSetCategoryRowChangeEvent : global::System.EventArgs {
             
-            private Category_x_ScriptureSetRow eventRow;
+            private ScriptureSetCategoryRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRowChangeEvent(Category_x_ScriptureSetRow row, global::System.Data.DataRowAction action) {
+            public ScriptureSetCategoryRowChangeEvent(ScriptureSetCategoryRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Category_x_ScriptureSetRow Row {
+            public ScriptureSetCategoryRow Row {
                 get {
                     return this.eventRow;
                 }

@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Biblifun.Common.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Biblifun.Data.Models
 {
     public class BibleBook
     {
+        public BibleBook()
+        {
+            Chapters = new List<BibleChapter>();
+            BookNames = new List<BibleBookName>();
+        }
+
         public int BibleBookId { get; set; }
 
         public string Name { get; set; }
@@ -18,25 +24,49 @@ namespace Biblifun.Data.Models
 
         public ICollection<BibleBookName> BookNames { get; set; }
 
-
+        /// <summary>
+        /// Returns the display name of the Bible book given the specified language. 
+        /// This name may contain non-breaking spaces for display purposes.
+        /// </summary>
         public string GetNameForLanguage(string language)
         {
             return this.BookNames.FirstOrDefault(bn => bn.Language == language)?.Name;
         }
 
-        public List<string> GetAbbreviationsForLanguage(string language)
+        /// <summary>
+        /// Returns a consolidated list of all identifiers which may be used for matching the
+        /// Bible book in the specified language. This includes the standard name and abbreviations 
+        /// with and without diacritics. Non-breaking spaces are replaced with breaking spaces.
+        /// </summary>
+        public List<string> GetAllIdentifiersForLanguage(string language)
         {
-            List<string> abbreviationsList = null;
+            List<string> allNames = null;
 
-            var abbreviations = this.BookNames.FirstOrDefault(bn => bn.Language == language)?.Abbreviations;
+            var bookNames = this.BookNames.FirstOrDefault(bn => bn.Language == language);
 
-            if(!string.IsNullOrWhiteSpace(abbreviations))
+            if(bookNames != null)
             {
-                abbreviationsList = abbreviations.Split(',').ToList();
+                var altNames = bookNames.AlternateIdentifiers.ReplaceNonBreakingSpaces();
+
+                if (!string.IsNullOrWhiteSpace(altNames))
+                {
+                    allNames = altNames.Split(',').ToList();
+                }
+
+                allNames.Insert(0, bookNames.Name.ReplaceNonBreakingSpaces());
             }
 
-            return abbreviationsList;
+            return allNames;
         }
+
+        public bool IsSingleChapter
+        {
+            get
+            {
+                return this.Chapters.Count == 1;
+            }
+        }
+
 
     }
 }

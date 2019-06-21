@@ -1,5 +1,5 @@
-﻿using Biblifun.Common;
-using Biblifun.Common.Test.Mocks;
+﻿using Biblifun.Data;
+using Biblifun.Data.Test.Mocks;
 using Biblifun.WebLookup;
 using Microsoft.Extensions.Logging;
 using Moq;
@@ -40,7 +40,7 @@ namespace Biblifun.IntegrationTests
             // ARRANGE
             var searchCountRetriever = GetSearchCountRetriever();
 
-            _verseParser.TryParseVerseString(verse, out VerseSetDescriptor verseSet);
+            _verseParser.TryParseVerseString(verse, "en", out VerseSetDescriptor verseSet);
 
             // ACT
             var count = await searchCountRetriever.GetSearchCountAsync(verseSet);

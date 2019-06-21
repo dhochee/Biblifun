@@ -30,7 +30,7 @@ namespace Biblifun.Website
 
             var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            builder.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Website"));
+            builder.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Data"));
 
             return new ApplicationDbContext(builder.Options);
         }

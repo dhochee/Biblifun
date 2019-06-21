@@ -55,12 +55,81 @@ namespace Biblifun.Data
                 _logger.LogInformation("Inbuilt account generation completed");
             }
 
+            if(!await _context.BibleBooks.AnyAsync())
+            {
+                PopulateBibleMetadata();
+            }
+
+
             await _context.SaveChangesAsync();
 
             _logger.LogInformation("Seeding initial data completed");
         }
 
+        private void PopulateBibleMetadata()
+        {
+            var metadataBuilder = new BibleMetadataBuilder();
+            var bibleMetadata = metadataBuilder.LoadMetaDataFromFile();
 
+            foreach(var book in bibleMetadata)
+            {
+                _context.BibleBooks.Add(new BibleBook
+                {
+                    BibleBookId = book.BibleBookId,
+                    Name = book.Name,
+                    TotalChapters = book.TotalChapters
+                });
+
+                // save at each step to preserve order ... lame
+                _context.SaveChanges();
+
+                foreach(var chapter in book.Chapters)
+                {
+                    _context.BibleChapter.Add(new BibleChapter
+                    {
+                        BibleBookId = book.BibleBookId,
+                        ChapterNumber = chapter.ChapterNumber,
+                        TotalVerses = chapter.TotalVerses
+                    });
+
+                    _context.SaveChanges();
+                }
+            }
+
+            // now add book names for each language so they're grouped together
+            var languages = new List<string>() { "en", "es" };
+
+            foreach (var language in languages)
+            {
+                foreach (var book in bibleMetadata)
+                {
+                    foreach (var bookNames in book.BookNames
+                                                  .Where(bn => bn.Language == language)
+                                                  .OrderBy(bn => bn.BibleBookId))
+                    {
+                        _context.BibleBookNames.Add(new BibleBookName
+                        {
+                            BibleBookId = bookNames.BibleBookId,
+                            Name = bookNames.Name,
+                            Language = bookNames.Language,
+                            AlternateIdentifiers = bookNames.AlternateIdentifiers
+                        });
+
+                        _context.SaveChanges();
+                    }
+                }
+            }
+        }
+
+        private void AddBibleBook(int id, string name, string abbreviations, int chapters)
+        {
+            _context.BibleBooks.Add(new BibleBook
+            {
+                BibleBookId = id,
+                Name = name,
+                TotalChapters = chapters
+            });
+        }
 
         private async Task EnsureRoleAsync(string roleName, string description, string[] claims)
         {

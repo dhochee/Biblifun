@@ -1,4 +1,4 @@
-﻿using Biblifun.Common;
+﻿using Biblifun.Data;
 using Biblifun.Common.Util;
 using Biblifun.WebLookup.Util;
 using HtmlAgilityPack;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Biblifun.WebLookup
 {
     /// <summary>
-    /// Used to retrieve the reference count  NWT scripture text from the Watchtower Online Library website (https://wol.jw.org).
+    /// Used to retrieve the reference count NWT scripture text from the Watchtower Online Library website (https://wol.jw.org).
     /// </summary>
     public class SearchCountRetriever : ISearchCountRetriever
     {
@@ -29,11 +29,11 @@ namespace Biblifun.WebLookup
 
         /// <summary>
         /// Given a verse set id, get the url that will retrieve the 
-        /// verse from the WOL site using the configured language.
+        /// search references from the WOL site (always uses Engligh).
         /// </summary>
         public string GetSearchCountUrl(VerseSetDescriptor setDescriptor)
         {
-            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId);
+            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId, "en");
 
             var tokens = new Dictionary<string, string>
             {
@@ -68,7 +68,7 @@ namespace Biblifun.WebLookup
                 {
                     var searchCountStr = Numbers.GetNumberFromStr(resultCountNode?.InnerText);
 
-                    if(int.TryParse(searchCountStr, out int count));
+                    if(int.TryParse(searchCountStr, out int count))
                     {
                         searchCount = count;
                     }

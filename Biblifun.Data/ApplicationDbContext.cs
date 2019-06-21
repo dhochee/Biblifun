@@ -13,12 +13,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using Biblifun.Data.Models.Interfaces;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Biblifun.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         public string CurrentUserId { get; set; }
+
+        public DbSet<BibleBook> BibleBooks { get; set; }
+
+        public DbSet<BibleBookName> BibleBookNames { get; set; }
+
+        public DbSet<BibleChapter> BibleChapter { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<ScriptureSet> ScriptureSets { get; set; }
+
+        public DbSet<ScriptureSetItem> ScriptureSetItems { get; set; }
+
+        public DbSet<ScriptureSetCategory> ScriptureSetCategories { get; set; }
+
+        public DbSet<ScriptureSetItemCategory> ScriptureSetItemCategories { get; set; }
+
+        public DbSet<VerseCache> CachedVerses { get; set; }
+
+        public DbSet<VerseSummary> VerseSummaries { get; set; }
 
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
@@ -34,8 +55,37 @@ namespace Biblifun.Data
 
             builder.Entity<ApplicationRole>().HasMany(r => r.Claims).WithOne().HasForeignKey(c => c.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
             builder.Entity<ApplicationRole>().HasMany(r => r.Users).WithOne().HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            // disable identity column on BibleBook table
+            builder.Entity<BibleBook>().Property(bb => bb.BibleBookId)
+                   .ValueGeneratedNever();
+
+            // ScriptureSetCategory 
+            builder.Entity<ScriptureSetCategory>()
+                   .HasKey(ss => new { ss.ScriptureSetId, ss.CategoryId });
+            builder.Entity<ScriptureSetCategory>()
+                   .HasOne(ssc => ssc.ScriptureSet)
+                   .WithMany(ss => ss.ScriptureSetCategories)
+                   .HasForeignKey(ssc => ssc.ScriptureSetId);
+            builder.Entity<ScriptureSetCategory>()
+                   .HasOne(ssc => ssc.Category)
+                   .WithMany(c => c.ScriptureSetCategories)
+                   .HasForeignKey(ssc => ssc.CategoryId);
+
+            // ScriptureSetItemCategory 
+            builder.Entity<ScriptureSetItemCategory>()
+                   .HasKey(ss => new { ss.ScriptureSetItemId, ss.CategoryId });
+            builder.Entity<ScriptureSetItemCategory>()
+                   .HasOne(ssc => ssc.ScriptureSetItem)
+                   .WithMany(ss => ss.ScriptureSetItemCategories)
+                   .HasForeignKey(ssc => ssc.ScriptureSetItemId);
+            builder.Entity<ScriptureSetItemCategory>()
+                   .HasOne(ssc => ssc.Category)
+                   .WithMany(c => c.ScriptureSetItemCategories)
+                   .HasForeignKey(ssc => ssc.CategoryId);
+
         }
-               
+
 
         public override int SaveChanges()
         {

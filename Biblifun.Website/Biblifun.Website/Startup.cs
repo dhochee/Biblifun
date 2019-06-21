@@ -47,7 +47,7 @@ namespace Biblifun.Website
             IdentityModelEventSource.ShowPII = true;
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Website")));
+                options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Data")));
 
             // add identity
             services.AddIdentity<ApplicationUser, ApplicationRole>()

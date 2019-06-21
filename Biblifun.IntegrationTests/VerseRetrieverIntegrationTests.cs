@@ -1,5 +1,5 @@
-﻿using Biblifun.Common;
-using Biblifun.Common.Test.Mocks;
+﻿using Biblifun.Data;
+using Biblifun.Data.Test.Mocks;
 using Biblifun.WebLookup;
 using Microsoft.Extensions.Logging;
 using Moq;
@@ -49,7 +49,7 @@ namespace Biblifun.IntegrationTests
             // ARRANGE
             var verseRetriever = GetVerseRetriever();
 
-            _verseParser.TryParseVerseString(verse, out VerseSetDescriptor verseSet);
+            _verseParser.TryParseVerseString(verse, "en", out VerseSetDescriptor verseSet);
 
             // ACT
             var html = await verseRetriever.GetVerseHtmlAsync(verseSet);
@@ -64,13 +64,13 @@ namespace Biblifun.IntegrationTests
         public async Task GetVerseHtml_When_language_spanish_Then_returns_expected_html(string verse, string expectedText)
         {
             // ARRANGE
-            _bibleBookProviderMock = new BibleBookProviderMock("es");
+            _bibleBookProviderMock = new BibleBookProviderMock();
             _verseParser = new VerseParser(_bibleBookProviderMock.Object);
 
             var verseRetriever = GetVerseRetriever();
             _languageProviderMock.Setup(lp => lp.Language).Returns("es");
 
-            _verseParser.TryParseVerseString(verse, out VerseSetDescriptor verseSet);
+            _verseParser.TryParseVerseString(verse, "es", out VerseSetDescriptor verseSet);
 
             // ACT
             var html = await verseRetriever.GetVerseHtmlAsync(verseSet);

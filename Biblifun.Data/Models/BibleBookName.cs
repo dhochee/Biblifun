@@ -18,6 +18,6 @@ namespace Biblifun.Data.Models
 
         public string Name { get; set; }
 
-        public string Abbreviations { get; set; }
+        public string AlternateIdentifiers { get; set; }
     }
 }

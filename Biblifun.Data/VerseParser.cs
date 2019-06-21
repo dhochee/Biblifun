@@ -1,6 +1,9 @@
-﻿using System.Text.RegularExpressions;
+﻿using Biblifun.Data.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 
-namespace Biblifun.Common
+namespace Biblifun.Data
 {
     public enum VerseParseResult
     {
@@ -26,15 +29,15 @@ namespace Biblifun.Common
         /// <summary>
         /// 
         /// </summary>
-        public VerseParseResult TryParseVerseString(string scriptureCitation, out VerseSetDescriptor verseSet, string language = null)
+        public VerseParseResult TryParseVerseString(string scriptureCitation, string language, out VerseSetDescriptor verseSet)
         {
             VerseParseResult result;
 
             verseSet = null;
 
-            scriptureCitation = scriptureCitation.ToLower().Trim();
+            scriptureCitation = scriptureCitation.ToLowerInvariant().Trim();
 
-            if (TryParseBook(scriptureCitation, out BibleBook book, out string chapterVerse, out result))
+            if (TryParseBook(scriptureCitation, language, out BibleBook book, out string chapterVerse, out result))
             {
                 if (TryParseChapter(chapterVerse, book, out BibleChapter chapter, out string verseString, out result))
                 {
@@ -42,7 +45,7 @@ namespace Biblifun.Common
                     {
                         verseSet = new VerseSetDescriptor
                         {
-                            BookId = book.BookId,
+                            BookId = book.BibleBookId,
                             Chapter = chapter.ChapterNumber,
                             IsSingleChapterBook = book.IsSingleChapter,
                             Start = startVerse,
@@ -58,6 +61,7 @@ namespace Biblifun.Common
         }
 
         private bool TryParseBook(string scriptureString,
+                                  string language,
                                   out BibleBook book,
                                   out string chapterVerse,
                                   out VerseParseResult result)
@@ -69,9 +73,9 @@ namespace Biblifun.Common
             // attempt to extract the book from the start of the string
             foreach (var bibleBook in _bibleBookProvider.BibleBooks)
             {
-                foreach (var name in bibleBook.AllNames)
+                foreach (var name in bibleBook.GetAllIdentifiersForLanguage(language))
                 {
-                    if (scriptureString.StartsWith(name.ToLower() + " "))
+                    if (scriptureString.StartsWith(name.ToLowerInvariant() + " "))
                     {
                         book = bibleBook;
                         chapterVerse = scriptureString.Substring(name.Length).Trim();
@@ -96,7 +100,7 @@ namespace Biblifun.Common
 
             if (book.IsSingleChapter)
             {
-                chapter = book.Chapters[0];
+                chapter = book.Chapters.FirstOrDefault();
                 verseString = chapterVerse;
                 result = VerseParseResult.Success;
             }
@@ -110,7 +114,7 @@ namespace Biblifun.Common
 
                     if (chapterNum > 0 && chapterNum <= book.Chapters.Count)
                     {
-                        chapter = book.Chapters[chapterNum - 1];
+                        chapter = ((List<BibleChapter>)book.Chapters)[chapterNum - 1];
                         verseString = chapterVerse.Substring(chapterVerse.IndexOf(":") + 1).Trim();
                         result = VerseParseResult.Success;
                     }
@@ -140,7 +144,7 @@ namespace Biblifun.Common
 
                 if (int.TryParse(startVerseString, out startVerse))
                 {
-                    if (startVerse > chapter.VerseCount)
+                    if (startVerse > chapter.TotalVerses)
                     {
                         // start verse is greater than the number of verses in the chapter
                         result = VerseParseResult.InvalidVerse;
@@ -153,7 +157,7 @@ namespace Biblifun.Common
                         {
                             if (int.TryParse(endVerseString, out int tempEndVerse))
                             {
-                                if (tempEndVerse > chapter.VerseCount)
+                                if (tempEndVerse > chapter.TotalVerses)
                                 {
                                     // the end verse is greater than the number of verses in the chapter
                                     result = VerseParseResult.InvalidVerse;
@@ -187,7 +191,7 @@ namespace Biblifun.Common
         /// Return the language-specific verse display text for the verse or 
         /// sequence identified by the verse set descriptor.
         /// </summary>
-        public string GetVerseCitationText(VerseSetDescriptor verseSet, string language = null)
+        public string GetVerseCitationText(VerseSetDescriptor verseSet, string language)
         {
             var book = _bibleBookProvider.GetBookById(verseSet.BookId);
 
@@ -197,14 +201,16 @@ namespace Biblifun.Common
                               verseSet.End == (verseSet.Start + 1) ? $"{verseSet.Start},{verseSet.End}" :
                               $"{verseSet.Start}-{verseSet.End}";
 
-            return $"{book.Name} {chapterString}{verseString}";
+            var bookName = book.GetNameForLanguage(language);
+
+            return $"{bookName} {chapterString}{verseString}";
         }
 
         /// <summary>
         /// Return the language-specific verse display text for the verse or 
         /// sequence identified by the verse set code.
         /// </summary>
-        public string GetVerseCitationText(string verseSetCode, string language = null)
+        public string GetVerseCitationText(string verseSetCode, string language)
         {
             var setDescriptor = VerseSetDescriptor.FromCode(verseSetCode);
 
@@ -214,9 +220,9 @@ namespace Biblifun.Common
         /// <summary>
         /// 
         /// </summary>
-        public string GetBookNameById(int bookId, string language = null)
+        public string GetBookNameById(int bookId, string language)
         {
-            return _bibleBookProvider.GetBookById(bookId).Name;
+            return _bibleBookProvider.GetBookById(bookId).GetNameForLanguage(language);
         }
     }
 }

@@ -4,20 +4,18 @@ using Biblifun.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Biblifun.Website.Migrations
+namespace Biblifun.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20181215082109_Initial")]
-    partial class Initial
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
+                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -122,188 +120,89 @@ namespace Biblifun.Website.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.Customer", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.BibleBook", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<int>("BibleBookId");
 
-                    b.Property<string>("Address");
+                    b.Property<string>("Name");
 
-                    b.Property<string>("City")
-                        .HasMaxLength(50);
+                    b.Property<int>("TotalChapters");
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(256);
+                    b.HasKey("BibleBookId");
 
-                    b.Property<DateTime>("CreatedDate");
-
-                    b.Property<DateTime>("DateCreated");
-
-                    b.Property<DateTime>("DateModified");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(100);
-
-                    b.Property<int>("Gender");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100);
-
-                    b.Property<string>("PhoneNumber")
-                        .HasMaxLength(30)
-                        .IsUnicode(false);
-
-                    b.Property<string>("UpdatedBy")
-                        .HasMaxLength(256);
-
-                    b.Property<DateTime>("UpdatedDate");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Name");
-
-                    b.ToTable("Customers");
+                    b.ToTable("BibleBooks");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.Order", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.BibleBookName", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("BibleBookNameId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CashierId");
+                    b.Property<string>("AlternateIdentifiers");
 
-                    b.Property<string>("Comments")
-                        .HasMaxLength(500);
+                    b.Property<int>("BibleBookId");
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(256);
+                    b.Property<string>("Language");
 
-                    b.Property<DateTime>("CreatedDate");
+                    b.Property<string>("Name");
 
-                    b.Property<int>("CustomerId");
+                    b.HasKey("BibleBookNameId");
 
-                    b.Property<DateTime>("DateCreated");
+                    b.HasIndex("BibleBookId");
 
-                    b.Property<DateTime>("DateModified");
-
-                    b.Property<decimal>("Discount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("UpdatedBy")
-                        .HasMaxLength(256);
-
-                    b.Property<DateTime>("UpdatedDate");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CashierId");
-
-                    b.HasIndex("CustomerId");
-
-                    b.ToTable("Orders");
+                    b.ToTable("BibleBookNames");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.OrderDetail", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.BibleChapter", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("BibleChapterId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CreatedBy")
-                        .HasMaxLength(256);
+                    b.Property<int>("BibleBookId");
 
-                    b.Property<DateTime>("CreatedDate");
+                    b.Property<int>("ChapterNumber");
 
-                    b.Property<decimal>("Discount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("TotalVerses");
 
-                    b.Property<int>("OrderId");
+                    b.HasKey("BibleChapterId");
 
-                    b.Property<int>("ProductId");
+                    b.HasIndex("BibleBookId");
 
-                    b.Property<int>("Quantity");
-
-                    b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("UpdatedBy")
-                        .HasMaxLength(256);
-
-                    b.Property<DateTime>("UpdatedDate");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderDetails");
+                    b.ToTable("BibleChapter");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.Product", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<decimal>("BuyingPrice")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("CreatedBy")
                         .HasMaxLength(256);
 
                     b.Property<DateTime>("CreatedDate");
 
-                    b.Property<DateTime>("DateCreated");
+                    b.Property<string>("Language");
 
-                    b.Property<DateTime>("DateModified");
-
-                    b.Property<string>("Description")
-                        .HasMaxLength(500);
-
-                    b.Property<string>("Icon")
-                        .HasMaxLength(256)
-                        .IsUnicode(false);
-
-                    b.Property<bool>("IsActive");
-
-                    b.Property<bool>("IsDiscontinued");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100);
-
-                    b.Property<int?>("ParentId");
-
-                    b.Property<int>("ProductCategoryId");
-
-                    b.Property<decimal>("SellingPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("UnitsInStock");
+                    b.Property<string>("Name");
 
                     b.Property<string>("UpdatedBy")
                         .HasMaxLength(256);
 
                     b.Property<DateTime>("UpdatedDate");
 
-                    b.HasKey("Id");
+                    b.Property<string>("UserId");
 
-                    b.HasIndex("Name");
+                    b.HasKey("CategoryId");
 
-                    b.HasIndex("ParentId");
-
-                    b.HasIndex("ProductCategoryId");
-
-                    b.ToTable("Products");
+                    b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.ProductCategory", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSet", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ScriptureSetId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -312,27 +211,137 @@ namespace Biblifun.Website.Migrations
 
                     b.Property<DateTime>("CreatedDate");
 
-                    b.Property<DateTime>("DateCreated");
+                    b.Property<string>("Description");
 
-                    b.Property<DateTime>("DateModified");
+                    b.Property<bool>("IsPassageSet");
 
-                    b.Property<string>("Description")
-                        .HasMaxLength(500);
+                    b.Property<string>("Language");
 
-                    b.Property<string>("Icon");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100);
+                    b.Property<string>("OwnedByUserId");
 
                     b.Property<string>("UpdatedBy")
                         .HasMaxLength(256);
 
                     b.Property<DateTime>("UpdatedDate");
 
-                    b.HasKey("Id");
+                    b.HasKey("ScriptureSetId");
 
-                    b.ToTable("ProductCategories");
+                    b.HasIndex("OwnedByUserId");
+
+                    b.ToTable("ScriptureSets");
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetCategory", b =>
+                {
+                    b.Property<int>("ScriptureSetId");
+
+                    b.Property<int>("CategoryId");
+
+                    b.HasKey("ScriptureSetId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ScriptureSetCategories");
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetItem", b =>
+                {
+                    b.Property<int>("ScriptureSetItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<int>("ScriptureSetId");
+
+                    b.Property<string>("Summary");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("UpdatedDate");
+
+                    b.Property<string>("VerseSetCode");
+
+                    b.HasKey("ScriptureSetItemId");
+
+                    b.HasIndex("ScriptureSetId");
+
+                    b.ToTable("ScriptureSetItems");
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetItemCategory", b =>
+                {
+                    b.Property<int>("ScriptureSetItemId");
+
+                    b.Property<int>("CategoryId");
+
+                    b.HasKey("ScriptureSetItemId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ScriptureSetItemCategories");
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.VerseCache", b =>
+                {
+                    b.Property<int>("VerseCacheId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<string>("Html");
+
+                    b.Property<string>("Language");
+
+                    b.Property<int>("SearchCount");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("UpdatedDate");
+
+                    b.Property<string>("VerseSetCode");
+
+                    b.HasKey("VerseCacheId");
+
+                    b.ToTable("CachedVerses");
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.VerseSummary", b =>
+                {
+                    b.Property<int>("VerseSummaryId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("CreatedDate");
+
+                    b.Property<string>("OwnedByUserId");
+
+                    b.Property<string>("Summary");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(256);
+
+                    b.Property<DateTime>("UpdatedDate");
+
+                    b.Property<string>("VerseSetCode");
+
+                    b.HasKey("VerseSummaryId");
+
+                    b.HasIndex("OwnedByUserId");
+
+                    b.ToTable("VerseSummaries");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -421,42 +430,68 @@ namespace Biblifun.Website.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.Order", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.BibleBookName", b =>
                 {
-                    b.HasOne("Biblifun.Data.Models.ApplicationUser", "Cashier")
-                        .WithMany("Orders")
-                        .HasForeignKey("CashierId");
-
-                    b.HasOne("Biblifun.Data.Models.Customer", "Customer")
-                        .WithMany("Orders")
-                        .HasForeignKey("CustomerId")
+                    b.HasOne("Biblifun.Data.Models.BibleBook", "Book")
+                        .WithMany("BookNames")
+                        .HasForeignKey("BibleBookId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.OrderDetail", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.BibleChapter", b =>
                 {
-                    b.HasOne("Biblifun.Data.Models.Order", "Order")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("Biblifun.Data.Models.Product", "Product")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("ProductId")
+                    b.HasOne("Biblifun.Data.Models.BibleBook", "Book")
+                        .WithMany("Chapters")
+                        .HasForeignKey("BibleBookId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Biblifun.Data.Models.Product", b =>
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSet", b =>
                 {
-                    b.HasOne("Biblifun.Data.Models.Product", "Parent")
-                        .WithMany("Children")
-                        .HasForeignKey("ParentId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                    b.HasOne("Biblifun.Data.Models.ApplicationUser", "OwnedByUser")
+                        .WithMany()
+                        .HasForeignKey("OwnedByUserId");
+                });
 
-                    b.HasOne("Biblifun.Data.Models.ProductCategory", "ProductCategory")
-                        .WithMany("Products")
-                        .HasForeignKey("ProductCategoryId")
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetCategory", b =>
+                {
+                    b.HasOne("Biblifun.Data.Models.Category", "Category")
+                        .WithMany("ScriptureSetCategories")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Biblifun.Data.Models.ScriptureSet", "ScriptureSet")
+                        .WithMany("ScriptureSetCategories")
+                        .HasForeignKey("ScriptureSetId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetItem", b =>
+                {
+                    b.HasOne("Biblifun.Data.Models.ScriptureSet", "ScriptureSet")
+                        .WithMany("ScriptureSetItems")
+                        .HasForeignKey("ScriptureSetId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.ScriptureSetItemCategory", b =>
+                {
+                    b.HasOne("Biblifun.Data.Models.Category", "Category")
+                        .WithMany("ScriptureSetItemCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Biblifun.Data.Models.ScriptureSetItem", "ScriptureSetItem")
+                        .WithMany("ScriptureSetItemCategories")
+                        .HasForeignKey("ScriptureSetItemId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Biblifun.Data.Models.VerseSummary", b =>
+                {
+                    b.HasOne("Biblifun.Data.Models.ApplicationUser", "OwnedByUser")
+                        .WithMany()
+                        .HasForeignKey("OwnedByUserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

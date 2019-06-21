@@ -1,4 +1,4 @@
-﻿namespace Biblifun.Common
+﻿namespace Biblifun.Data
 {
     /// <summary>
     /// Used to specify the selected language of the user.

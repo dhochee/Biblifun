@@ -14,5 +14,7 @@ namespace Biblifun.Data.Models
         public string Summary { get; set; }
 
         public string OwnedByUserId { get; set; }
+
+        public ApplicationUser OwnedByUser { get; set; }
     }
 }

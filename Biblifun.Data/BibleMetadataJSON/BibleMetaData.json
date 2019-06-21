@@ -1,0 +1,8654 @@
+[
+  {
+    "BibleBookId": 1,
+    "Name": "Genesis",
+    "TotalChapters": 50,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 1,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 2,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 3,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 4,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 5,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 6,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 7,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 8,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 9,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 10,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 11,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 12,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 13,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 14,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 15,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 16,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 17,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 18,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 19,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 20,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 21,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 22,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 23,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 24,
+        "TotalVerses": 67
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 25,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 26,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 27,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 28,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 29,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 30,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 31,
+        "TotalVerses": 55
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 32,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 33,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 34,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 35,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 36,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 37,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 38,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 39,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 40,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 41,
+        "TotalVerses": 57
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 42,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 43,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 44,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 45,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 46,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 47,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 48,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 49,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 1,
+        "ChapterNumber": 50,
+        "TotalVerses": 26
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 1,
+        "Language": "en",
+        "Name": "Genesis",
+        "AlternateIdentifiers": "Gen.,Gen,Ge"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 1,
+        "Language": "es",
+        "Name": "Génesis",
+        "AlternateIdentifiers": "Gén.,Gén,Gé,Gen.,Gen,Ge,Genesis"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 2,
+    "Name": "Exodus",
+    "TotalChapters": 40,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 1,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 2,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 3,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 4,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 5,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 6,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 7,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 8,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 9,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 10,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 11,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 12,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 13,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 14,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 15,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 16,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 17,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 18,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 19,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 20,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 21,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 22,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 23,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 24,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 25,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 26,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 27,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 28,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 29,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 30,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 31,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 32,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 33,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 34,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 35,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 36,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 37,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 38,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 39,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 2,
+        "ChapterNumber": 40,
+        "TotalVerses": 38
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 2,
+        "Language": "en",
+        "Name": "Exodus",
+        "AlternateIdentifiers": "Ex.,Ex"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 2,
+        "Language": "es",
+        "Name": "Éxodo",
+        "AlternateIdentifiers": "Éx.,Éx,Ex.,Ex,Exodo"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 3,
+    "Name": "Leviticus",
+    "TotalChapters": 27,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 1,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 2,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 3,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 4,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 5,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 6,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 7,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 8,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 9,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 10,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 11,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 12,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 13,
+        "TotalVerses": 59
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 14,
+        "TotalVerses": 57
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 15,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 16,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 17,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 18,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 19,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 20,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 21,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 22,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 23,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 24,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 25,
+        "TotalVerses": 55
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 26,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 3,
+        "ChapterNumber": 27,
+        "TotalVerses": 34
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 3,
+        "Language": "en",
+        "Name": "Leviticus",
+        "AlternateIdentifiers": "Lev.,Lev,Le"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 3,
+        "Language": "es",
+        "Name": "Levítico",
+        "AlternateIdentifiers": "Lev.,Lev,Le,Levitico"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 4,
+    "Name": "Numbers",
+    "TotalChapters": 36,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 1,
+        "TotalVerses": 54
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 2,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 3,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 4,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 5,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 6,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 7,
+        "TotalVerses": 89
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 8,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 9,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 10,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 11,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 12,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 13,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 14,
+        "TotalVerses": 45
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 15,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 16,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 17,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 18,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 19,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 20,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 21,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 22,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 23,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 24,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 25,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 26,
+        "TotalVerses": 65
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 27,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 28,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 29,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 30,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 31,
+        "TotalVerses": 54
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 32,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 33,
+        "TotalVerses": 56
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 34,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 35,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 4,
+        "ChapterNumber": 36,
+        "TotalVerses": 13
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 4,
+        "Language": "en",
+        "Name": "Numbers",
+        "AlternateIdentifiers": "Num.,Num,Nu"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 4,
+        "Language": "es",
+        "Name": "Números",
+        "AlternateIdentifiers": "Núm.,Núm,Nú,Num.,Num,Nu,Numeros"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 5,
+    "Name": "Deuteronomy",
+    "TotalChapters": 34,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 1,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 2,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 3,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 4,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 5,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 6,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 7,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 8,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 9,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 10,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 11,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 12,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 13,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 14,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 15,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 16,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 17,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 18,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 19,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 20,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 21,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 22,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 23,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 24,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 25,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 26,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 27,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 28,
+        "TotalVerses": 68
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 29,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 30,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 31,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 32,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 33,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 5,
+        "ChapterNumber": 34,
+        "TotalVerses": 12
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 5,
+        "Language": "en",
+        "Name": "Deuteronomy",
+        "AlternateIdentifiers": "Deut.,Deut,De"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 5,
+        "Language": "es",
+        "Name": "Deuteronomio",
+        "AlternateIdentifiers": "Deut.,Deut,Dt"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 6,
+    "Name": "Joshua",
+    "TotalChapters": 24,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 1,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 2,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 3,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 4,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 5,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 6,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 7,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 8,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 9,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 10,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 11,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 12,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 13,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 14,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 15,
+        "TotalVerses": 63
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 16,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 17,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 18,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 19,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 20,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 21,
+        "TotalVerses": 45
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 22,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 23,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 6,
+        "ChapterNumber": 24,
+        "TotalVerses": 33
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 6,
+        "Language": "en",
+        "Name": "Joshua",
+        "AlternateIdentifiers": "Josh.,Josh,Jos"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 6,
+        "Language": "es",
+        "Name": "Josué",
+        "AlternateIdentifiers": "Jos.,Jos,Josue"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 7,
+    "Name": "Judges",
+    "TotalChapters": 21,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 1,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 3,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 4,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 5,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 6,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 7,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 8,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 9,
+        "TotalVerses": 57
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 10,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 11,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 12,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 13,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 14,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 15,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 16,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 17,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 18,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 19,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 20,
+        "TotalVerses": 48
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 7,
+        "ChapterNumber": 21,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 7,
+        "Language": "en",
+        "Name": "Judges",
+        "AlternateIdentifiers": "Judg.,Judg,Jg"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 7,
+        "Language": "es",
+        "Name": "Jueces",
+        "AlternateIdentifiers": "Juec.,Juec,Jue"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 8,
+    "Name": "Ruth",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 8,
+        "ChapterNumber": 1,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 8,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 8,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 8,
+        "ChapterNumber": 4,
+        "TotalVerses": 22
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 8,
+        "Language": "en",
+        "Name": "Ruth",
+        "AlternateIdentifiers": "Ruth,Ru"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 8,
+        "Language": "es",
+        "Name": "Rut",
+        "AlternateIdentifiers": "Rut"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 9,
+    "Name": "1 Samuel",
+    "TotalChapters": 31,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 1,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 2,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 3,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 4,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 5,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 6,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 7,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 8,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 9,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 10,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 11,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 12,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 13,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 14,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 15,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 16,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 17,
+        "TotalVerses": 58
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 18,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 19,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 20,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 21,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 22,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 23,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 24,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 25,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 26,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 27,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 28,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 29,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 30,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 9,
+        "ChapterNumber": 31,
+        "TotalVerses": 13
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 9,
+        "Language": "en",
+        "Name": "1 Samuel",
+        "AlternateIdentifiers": "1 Sam.,1 Sam,1Sa"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 9,
+        "Language": "es",
+        "Name": "1 Samuel",
+        "AlternateIdentifiers": "1 Sam.,1 Sam,1Sa"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 10,
+    "Name": "2 Samuel",
+    "TotalChapters": 24,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 1,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 2,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 3,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 4,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 5,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 6,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 7,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 8,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 9,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 10,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 11,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 12,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 13,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 14,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 15,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 16,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 17,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 18,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 19,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 20,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 21,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 22,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 23,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 10,
+        "ChapterNumber": 24,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 10,
+        "Language": "en",
+        "Name": "2 Samuel",
+        "AlternateIdentifiers": "2 Sam.,2 Sam,2Sa"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 10,
+        "Language": "es",
+        "Name": "2 Samuel",
+        "AlternateIdentifiers": "2 Sam.,2 Sam,2Sa"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 11,
+    "Name": "1 Kings",
+    "TotalChapters": 22,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 1,
+        "TotalVerses": 53
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 2,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 3,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 4,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 5,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 6,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 7,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 8,
+        "TotalVerses": 66
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 9,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 10,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 11,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 12,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 13,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 14,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 15,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 16,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 17,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 18,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 19,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 20,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 21,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 11,
+        "ChapterNumber": 22,
+        "TotalVerses": 53
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 11,
+        "Language": "en",
+        "Name": "1 Kings",
+        "AlternateIdentifiers": "1 Ki.,1 Ki,1Ki"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 11,
+        "Language": "es",
+        "Name": "1 Reyes",
+        "AlternateIdentifiers": "1 Rey.,1 Rey,1Re"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 12,
+    "Name": "2 Kings",
+    "TotalChapters": 25,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 1,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 2,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 3,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 4,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 5,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 6,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 7,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 8,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 9,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 10,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 11,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 12,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 13,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 14,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 15,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 16,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 17,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 18,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 19,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 20,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 21,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 22,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 23,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 24,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 12,
+        "ChapterNumber": 25,
+        "TotalVerses": 30
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 12,
+        "Language": "en",
+        "Name": "2 Kings",
+        "AlternateIdentifiers": "2 Ki.,2 Ki,2Ki"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 12,
+        "Language": "es",
+        "Name": "2 Reyes",
+        "AlternateIdentifiers": "2 Rey.,2 Rey,2Re"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 13,
+    "Name": "1 Chronicles",
+    "TotalChapters": 29,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 1,
+        "TotalVerses": 54
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 2,
+        "TotalVerses": 55
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 3,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 4,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 5,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 6,
+        "TotalVerses": 81
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 7,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 8,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 9,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 10,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 11,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 12,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 13,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 14,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 15,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 16,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 17,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 18,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 19,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 20,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 21,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 22,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 23,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 24,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 25,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 26,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 27,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 28,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 13,
+        "ChapterNumber": 29,
+        "TotalVerses": 30
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 13,
+        "Language": "en",
+        "Name": "1 Chronicles",
+        "AlternateIdentifiers": "1 Chron.,1 Chron,1Ch"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 13,
+        "Language": "es",
+        "Name": "1 Crónicas",
+        "AlternateIdentifiers": "1 Crón.,1 Crón,1Cr,1 Cron.,1 Cron,1 Cronicas"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 14,
+    "Name": "2 Chronicles",
+    "TotalChapters": 36,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 1,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 2,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 3,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 4,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 5,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 6,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 7,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 8,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 9,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 10,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 11,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 12,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 13,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 14,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 15,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 16,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 17,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 18,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 19,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 20,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 21,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 22,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 23,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 24,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 25,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 26,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 27,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 28,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 29,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 30,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 31,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 32,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 33,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 34,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 35,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 14,
+        "ChapterNumber": 36,
+        "TotalVerses": 23
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 14,
+        "Language": "en",
+        "Name": "2 Chronicles",
+        "AlternateIdentifiers": "2 Chron.,2 Chron,2Ch"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 14,
+        "Language": "es",
+        "Name": "2 Crónicas",
+        "AlternateIdentifiers": "2 Crón.,2 Crón,2Cr,2 Cron.,2 Cron,2 Cronicas"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 15,
+    "Name": "Ezra",
+    "TotalChapters": 10,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 1,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 2,
+        "TotalVerses": 70
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 3,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 4,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 5,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 6,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 7,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 8,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 9,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 15,
+        "ChapterNumber": 10,
+        "TotalVerses": 44
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 15,
+        "Language": "en",
+        "Name": "Ezra",
+        "AlternateIdentifiers": "Ezra,Ezr"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 15,
+        "Language": "es",
+        "Name": "Esdras",
+        "AlternateIdentifiers": "Esd.,Esd"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 16,
+    "Name": "Nehemiah",
+    "TotalChapters": 13,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 1,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 2,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 3,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 4,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 5,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 6,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 7,
+        "TotalVerses": 73
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 8,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 9,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 10,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 11,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 12,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 16,
+        "ChapterNumber": 13,
+        "TotalVerses": 31
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 16,
+        "Language": "en",
+        "Name": "Nehemiah",
+        "AlternateIdentifiers": "Neh.,Neh,Ne"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 16,
+        "Language": "es",
+        "Name": "Nehemías",
+        "AlternateIdentifiers": "Neh.,Neh,Ne,Nehemias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 17,
+    "Name": "Esther",
+    "TotalChapters": 10,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 1,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 3,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 4,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 5,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 6,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 7,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 8,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 9,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 17,
+        "ChapterNumber": 10,
+        "TotalVerses": 3
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 17,
+        "Language": "en",
+        "Name": "Esther",
+        "AlternateIdentifiers": "Esther,Es"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 17,
+        "Language": "es",
+        "Name": "Ester",
+        "AlternateIdentifiers": "Est.,Est"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 18,
+    "Name": "Job",
+    "TotalChapters": 42,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 1,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 2,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 3,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 4,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 5,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 6,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 7,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 8,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 9,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 10,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 11,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 12,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 13,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 14,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 15,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 16,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 17,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 18,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 19,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 20,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 21,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 22,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 23,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 24,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 25,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 26,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 27,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 28,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 29,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 30,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 31,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 32,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 33,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 34,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 35,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 36,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 37,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 38,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 39,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 40,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 41,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 18,
+        "ChapterNumber": 42,
+        "TotalVerses": 17
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 18,
+        "Language": "en",
+        "Name": "Job",
+        "AlternateIdentifiers": "Job"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 18,
+        "Language": "es",
+        "Name": "Job",
+        "AlternateIdentifiers": "Job"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 19,
+    "Name": "Psalms",
+    "TotalChapters": 150,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 1,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 2,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 3,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 4,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 5,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 6,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 7,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 8,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 9,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 10,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 11,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 12,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 13,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 14,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 15,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 16,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 17,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 18,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 19,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 20,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 21,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 22,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 23,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 24,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 25,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 26,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 27,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 28,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 29,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 30,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 31,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 32,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 33,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 34,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 35,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 36,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 37,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 38,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 39,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 40,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 41,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 42,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 43,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 44,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 45,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 46,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 47,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 48,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 49,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 50,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 51,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 52,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 53,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 54,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 55,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 56,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 57,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 58,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 59,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 60,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 61,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 62,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 63,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 64,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 65,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 66,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 67,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 68,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 69,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 70,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 71,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 72,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 73,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 74,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 75,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 76,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 77,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 78,
+        "TotalVerses": 72
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 79,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 80,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 81,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 82,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 83,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 84,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 85,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 86,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 87,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 88,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 89,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 90,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 91,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 92,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 93,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 94,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 95,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 96,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 97,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 98,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 99,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 100,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 101,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 102,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 103,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 104,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 105,
+        "TotalVerses": 45
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 106,
+        "TotalVerses": 48
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 107,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 108,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 109,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 110,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 111,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 112,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 113,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 114,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 115,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 116,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 117,
+        "TotalVerses": 2
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 118,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 119,
+        "TotalVerses": 176
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 120,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 121,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 122,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 123,
+        "TotalVerses": 4
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 124,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 125,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 126,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 127,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 128,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 129,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 130,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 131,
+        "TotalVerses": 3
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 132,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 133,
+        "TotalVerses": 3
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 134,
+        "TotalVerses": 3
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 135,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 136,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 137,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 138,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 139,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 140,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 141,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 142,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 143,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 144,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 145,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 146,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 147,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 148,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 149,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 19,
+        "ChapterNumber": 150,
+        "TotalVerses": 6
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 19,
+        "Language": "en",
+        "Name": "Psalms",
+        "AlternateIdentifiers": "Ps.,Ps"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 19,
+        "Language": "es",
+        "Name": "Salmos",
+        "AlternateIdentifiers": "Sal.,Sal,Sl"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 20,
+    "Name": "Proverbs",
+    "TotalChapters": 31,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 1,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 2,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 3,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 4,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 5,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 6,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 7,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 8,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 9,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 10,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 11,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 12,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 13,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 14,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 15,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 16,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 17,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 18,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 19,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 20,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 21,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 22,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 23,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 24,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 25,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 26,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 27,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 28,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 29,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 30,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 20,
+        "ChapterNumber": 31,
+        "TotalVerses": 31
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 20,
+        "Language": "en",
+        "Name": "Proverbs",
+        "AlternateIdentifiers": "Prov.,Prov,Pr"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 20,
+        "Language": "es",
+        "Name": "Proverbios",
+        "AlternateIdentifiers": "Prov.,Prov,Pr"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 21,
+    "Name": "Ecclesiastes",
+    "TotalChapters": 12,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 1,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 2,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 3,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 4,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 5,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 6,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 7,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 8,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 9,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 10,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 11,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 21,
+        "ChapterNumber": 12,
+        "TotalVerses": 14
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 21,
+        "Language": "en",
+        "Name": "Ecclesiastes",
+        "AlternateIdentifiers": "Eccl.,Eccl,Ec"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 21,
+        "Language": "es",
+        "Name": "Eclesiastés",
+        "AlternateIdentifiers": "Ecl.,Ecl,Ec,Eclesiastes"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 22,
+    "Name": "Song of Solomon",
+    "TotalChapters": 8,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 1,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 2,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 3,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 4,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 5,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 6,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 7,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 22,
+        "ChapterNumber": 8,
+        "TotalVerses": 14
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 22,
+        "Language": "en",
+        "Name": "Song of Solomon",
+        "AlternateIdentifiers": "Song of Sol.,Song of Sol,Ca"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 22,
+        "Language": "es",
+        "Name": "El Cantar de los Cantares",
+        "AlternateIdentifiers": "Cant. de Cant.,Cant de Cant,Can"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 23,
+    "Name": "Isaiah",
+    "TotalChapters": 66,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 1,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 2,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 3,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 4,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 5,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 6,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 7,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 8,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 9,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 10,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 11,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 12,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 13,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 14,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 15,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 16,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 17,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 18,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 19,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 20,
+        "TotalVerses": 6
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 21,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 22,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 23,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 24,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 25,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 26,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 27,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 28,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 29,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 30,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 31,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 32,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 33,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 34,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 35,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 36,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 37,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 38,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 39,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 40,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 41,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 42,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 43,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 44,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 45,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 46,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 47,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 48,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 49,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 50,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 51,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 52,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 53,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 54,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 55,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 56,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 57,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 58,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 59,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 60,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 61,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 62,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 63,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 64,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 65,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 23,
+        "ChapterNumber": 66,
+        "TotalVerses": 24
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 23,
+        "Language": "en",
+        "Name": "Isaiah",
+        "AlternateIdentifiers": "Isa.,Isa"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 23,
+        "Language": "es",
+        "Name": "Isaías",
+        "AlternateIdentifiers": "Is.,Is,Isa,Isaias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 24,
+    "Name": "Jeremiah",
+    "TotalChapters": 52,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 1,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 2,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 3,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 4,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 5,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 6,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 7,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 8,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 9,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 10,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 11,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 12,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 13,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 14,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 15,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 16,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 17,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 18,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 19,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 20,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 21,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 22,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 23,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 24,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 25,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 26,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 27,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 28,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 29,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 30,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 31,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 32,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 33,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 34,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 35,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 36,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 37,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 38,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 39,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 40,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 41,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 42,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 43,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 44,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 45,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 46,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 47,
+        "TotalVerses": 7
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 48,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 49,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 50,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 51,
+        "TotalVerses": 64
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 24,
+        "ChapterNumber": 52,
+        "TotalVerses": 34
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 24,
+        "Language": "en",
+        "Name": "Jeremiah",
+        "AlternateIdentifiers": "Jer.,Jer"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 24,
+        "Language": "es",
+        "Name": "Jeremías",
+        "AlternateIdentifiers": "Jer.,Jer,Jeremias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 25,
+    "Name": "Lamentations",
+    "TotalChapters": 5,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 25,
+        "ChapterNumber": 1,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 25,
+        "ChapterNumber": 2,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 25,
+        "ChapterNumber": 3,
+        "TotalVerses": 66
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 25,
+        "ChapterNumber": 4,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 25,
+        "ChapterNumber": 5,
+        "TotalVerses": 22
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 25,
+        "Language": "en",
+        "Name": "Lamentations",
+        "AlternateIdentifiers": "Lam.,Lam,La"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 25,
+        "Language": "es",
+        "Name": "Lamentaciones",
+        "AlternateIdentifiers": "Lam.,Lam"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 26,
+    "Name": "Ezekiel",
+    "TotalChapters": 48,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 1,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 2,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 3,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 4,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 5,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 6,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 7,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 8,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 9,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 10,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 11,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 12,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 13,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 14,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 15,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 16,
+        "TotalVerses": 63
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 17,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 18,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 19,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 20,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 21,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 22,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 23,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 24,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 25,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 26,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 27,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 28,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 29,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 30,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 31,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 32,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 33,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 34,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 35,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 36,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 37,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 38,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 39,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 40,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 41,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 42,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 43,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 44,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 45,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 46,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 47,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 26,
+        "ChapterNumber": 48,
+        "TotalVerses": 35
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 26,
+        "Language": "en",
+        "Name": "Ezekiel",
+        "AlternateIdentifiers": "Ezek.,Ezek,Eze"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 26,
+        "Language": "es",
+        "Name": "Ezequiel",
+        "AlternateIdentifiers": "Ezeq.,Ezeq,Eze"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 27,
+    "Name": "Daniel",
+    "TotalChapters": 12,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 1,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 2,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 3,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 4,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 5,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 6,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 7,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 8,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 9,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 10,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 11,
+        "TotalVerses": 45
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 27,
+        "ChapterNumber": 12,
+        "TotalVerses": 13
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 27,
+        "Language": "en",
+        "Name": "Daniel",
+        "AlternateIdentifiers": "Dan.,Dan,Da"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 27,
+        "Language": "es",
+        "Name": "Daniel",
+        "AlternateIdentifiers": "Dan.,Dan,Da"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 28,
+    "Name": "Hosea",
+    "TotalChapters": 14,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 1,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 3,
+        "TotalVerses": 5
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 4,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 5,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 6,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 7,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 8,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 9,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 10,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 11,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 12,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 13,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 28,
+        "ChapterNumber": 14,
+        "TotalVerses": 9
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 28,
+        "Language": "en",
+        "Name": "Hosea",
+        "AlternateIdentifiers": "Hos.,Hos,Ho"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 28,
+        "Language": "es",
+        "Name": "Oseas",
+        "AlternateIdentifiers": "Os.,Os"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 29,
+    "Name": "Joel",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 29,
+        "ChapterNumber": 1,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 29,
+        "ChapterNumber": 2,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 29,
+        "ChapterNumber": 3,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 29,
+        "Language": "en",
+        "Name": "Joel",
+        "AlternateIdentifiers": "Joel,Joe"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 29,
+        "Language": "es",
+        "Name": "Joel",
+        "AlternateIdentifiers": "Joel,Joe"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 30,
+    "Name": "Amos",
+    "TotalChapters": 9,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 1,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 2,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 3,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 4,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 5,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 6,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 7,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 8,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 30,
+        "ChapterNumber": 9,
+        "TotalVerses": 15
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 30,
+        "Language": "en",
+        "Name": "Amos",
+        "AlternateIdentifiers": "Amos,Am"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 30,
+        "Language": "es",
+        "Name": "Amós",
+        "AlternateIdentifiers": "Amós,Am,Amos,Amos"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 31,
+    "Name": "Obadiah",
+    "TotalChapters": 1,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 31,
+        "ChapterNumber": 1,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 31,
+        "Language": "en",
+        "Name": "Obadiah",
+        "AlternateIdentifiers": "Obad.,Obad,Ob"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 31,
+        "Language": "es",
+        "Name": "Abdías",
+        "AlternateIdentifiers": "Abd.,Abd,Abdias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 32,
+    "Name": "Jonah",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 32,
+        "ChapterNumber": 1,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 32,
+        "ChapterNumber": 2,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 32,
+        "ChapterNumber": 3,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 32,
+        "ChapterNumber": 4,
+        "TotalVerses": 11
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 32,
+        "Language": "en",
+        "Name": "Jonah",
+        "AlternateIdentifiers": "Jonah,Jon"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 32,
+        "Language": "es",
+        "Name": "Jonás",
+        "AlternateIdentifiers": "Jon.,Jon,Jonas"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 33,
+    "Name": "Micah",
+    "TotalChapters": 7,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 1,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 2,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 3,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 4,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 5,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 6,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 33,
+        "ChapterNumber": 7,
+        "TotalVerses": 20
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 33,
+        "Language": "en",
+        "Name": "Micah",
+        "AlternateIdentifiers": "Mic.,Mic"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 33,
+        "Language": "es",
+        "Name": "Miqueas",
+        "AlternateIdentifiers": "Miq.,Miq"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 34,
+    "Name": "Nahum",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 34,
+        "ChapterNumber": 1,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 34,
+        "ChapterNumber": 2,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 34,
+        "ChapterNumber": 3,
+        "TotalVerses": 19
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 34,
+        "Language": "en",
+        "Name": "Nahum",
+        "AlternateIdentifiers": "Nah.,Nah,Na"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 34,
+        "Language": "es",
+        "Name": "Nahúm",
+        "AlternateIdentifiers": "Nah.,Nah,Na,Nahum"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 35,
+    "Name": "Habakkuk",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 35,
+        "ChapterNumber": 1,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 35,
+        "ChapterNumber": 2,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 35,
+        "ChapterNumber": 3,
+        "TotalVerses": 19
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 35,
+        "Language": "en",
+        "Name": "Habakkuk",
+        "AlternateIdentifiers": "Hab.,Hab"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 35,
+        "Language": "es",
+        "Name": "Habacuc",
+        "AlternateIdentifiers": "Hab.,Hab"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 36,
+    "Name": "Zephaniah",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 36,
+        "ChapterNumber": 1,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 36,
+        "ChapterNumber": 2,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 36,
+        "ChapterNumber": 3,
+        "TotalVerses": 20
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 36,
+        "Language": "en",
+        "Name": "Zephaniah",
+        "AlternateIdentifiers": "Zeph.,Zeph,Zep"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 36,
+        "Language": "es",
+        "Name": "Sofonías",
+        "AlternateIdentifiers": "Sof.,Sof,Sofonias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 37,
+    "Name": "Haggai",
+    "TotalChapters": 2,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 37,
+        "ChapterNumber": 1,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 37,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 37,
+        "Language": "en",
+        "Name": "Haggai",
+        "AlternateIdentifiers": "Hag.,Hag"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 37,
+        "Language": "es",
+        "Name": "Ageo",
+        "AlternateIdentifiers": "Ageo,Ag"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 38,
+    "Name": "Zechariah",
+    "TotalChapters": 14,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 1,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 2,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 3,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 4,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 5,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 6,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 7,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 8,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 9,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 10,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 11,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 12,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 13,
+        "TotalVerses": 9
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 38,
+        "ChapterNumber": 14,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 38,
+        "Language": "en",
+        "Name": "Zechariah",
+        "AlternateIdentifiers": "Zech.,Zech,Zec"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 38,
+        "Language": "es",
+        "Name": "Zacarías",
+        "AlternateIdentifiers": "Zac.,Zac,Zacarias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 39,
+    "Name": "Malachi",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 39,
+        "ChapterNumber": 1,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 39,
+        "ChapterNumber": 2,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 39,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 39,
+        "ChapterNumber": 4,
+        "TotalVerses": 6
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 39,
+        "Language": "en",
+        "Name": "Malachi",
+        "AlternateIdentifiers": "Mal.,Mal"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 39,
+        "Language": "es",
+        "Name": "Malaquías",
+        "AlternateIdentifiers": "Mal.,Mal,Malaquias"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 40,
+    "Name": "Matthew",
+    "TotalChapters": 28,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 1,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 3,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 4,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 5,
+        "TotalVerses": 48
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 6,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 7,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 8,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 9,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 10,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 11,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 12,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 13,
+        "TotalVerses": 58
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 14,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 15,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 16,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 17,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 18,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 19,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 20,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 21,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 22,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 23,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 24,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 25,
+        "TotalVerses": 46
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 26,
+        "TotalVerses": 75
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 27,
+        "TotalVerses": 66
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 40,
+        "ChapterNumber": 28,
+        "TotalVerses": 20
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 40,
+        "Language": "en",
+        "Name": "Matthew",
+        "AlternateIdentifiers": "Matt.,Matt,Mt"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 40,
+        "Language": "es",
+        "Name": "Mateo",
+        "AlternateIdentifiers": "Mat.,Mat,Mt"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 41,
+    "Name": "Mark",
+    "TotalChapters": 16,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 1,
+        "TotalVerses": 45
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 2,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 3,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 4,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 5,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 6,
+        "TotalVerses": 56
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 7,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 8,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 9,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 10,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 11,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 12,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 13,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 14,
+        "TotalVerses": 72
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 15,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 41,
+        "ChapterNumber": 16,
+        "TotalVerses": 20
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 41,
+        "Language": "en",
+        "Name": "Mark",
+        "AlternateIdentifiers": "Mark,Mr"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 41,
+        "Language": "es",
+        "Name": "Marcos",
+        "AlternateIdentifiers": "Mar.,Mar,Mr"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 42,
+    "Name": "Luke",
+    "TotalChapters": 24,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 1,
+        "TotalVerses": 80
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 2,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 3,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 4,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 5,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 6,
+        "TotalVerses": 49
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 7,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 8,
+        "TotalVerses": 56
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 9,
+        "TotalVerses": 62
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 10,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 11,
+        "TotalVerses": 54
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 12,
+        "TotalVerses": 59
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 13,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 14,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 15,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 16,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 17,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 18,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 19,
+        "TotalVerses": 48
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 20,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 21,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 22,
+        "TotalVerses": 71
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 23,
+        "TotalVerses": 56
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 42,
+        "ChapterNumber": 24,
+        "TotalVerses": 53
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 42,
+        "Language": "en",
+        "Name": "Luke",
+        "AlternateIdentifiers": "Luke,Lu"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 42,
+        "Language": "es",
+        "Name": "Lucas",
+        "AlternateIdentifiers": "Luc.,Luc,Lu"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 43,
+    "Name": "John",
+    "TotalChapters": 21,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 1,
+        "TotalVerses": 51
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 2,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 3,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 4,
+        "TotalVerses": 54
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 5,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 6,
+        "TotalVerses": 71
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 7,
+        "TotalVerses": 53
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 8,
+        "TotalVerses": 59
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 9,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 10,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 11,
+        "TotalVerses": 57
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 12,
+        "TotalVerses": 50
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 13,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 14,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 15,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 16,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 17,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 18,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 19,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 20,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 43,
+        "ChapterNumber": 21,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 43,
+        "Language": "en",
+        "Name": "John",
+        "AlternateIdentifiers": "John,Joh"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 43,
+        "Language": "es",
+        "Name": "Juan",
+        "AlternateIdentifiers": "Juan,Jn"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 44,
+    "Name": "Acts",
+    "TotalChapters": 28,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 1,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 2,
+        "TotalVerses": 47
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 3,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 4,
+        "TotalVerses": 37
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 5,
+        "TotalVerses": 42
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 6,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 7,
+        "TotalVerses": 60
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 8,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 9,
+        "TotalVerses": 43
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 10,
+        "TotalVerses": 48
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 11,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 12,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 13,
+        "TotalVerses": 52
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 14,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 15,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 16,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 17,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 18,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 19,
+        "TotalVerses": 41
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 20,
+        "TotalVerses": 38
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 21,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 22,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 23,
+        "TotalVerses": 35
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 24,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 25,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 26,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 27,
+        "TotalVerses": 44
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 44,
+        "ChapterNumber": 28,
+        "TotalVerses": 31
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 44,
+        "Language": "en",
+        "Name": "Acts",
+        "AlternateIdentifiers": "Acts,Ac"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 44,
+        "Language": "es",
+        "Name": "Hechos",
+        "AlternateIdentifiers": "Hech.,Hech,Hch"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 45,
+    "Name": "Romans",
+    "TotalChapters": 16,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 1,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 2,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 3,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 4,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 5,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 6,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 7,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 8,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 9,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 10,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 11,
+        "TotalVerses": 36
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 12,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 13,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 14,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 15,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 45,
+        "ChapterNumber": 16,
+        "TotalVerses": 27
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 45,
+        "Language": "en",
+        "Name": "Romans",
+        "AlternateIdentifiers": "Rom.,Rom,Ro"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 45,
+        "Language": "es",
+        "Name": "Romanos",
+        "AlternateIdentifiers": "Rom.,Rom,Ro"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 46,
+    "Name": "1 Corinthians",
+    "TotalChapters": 16,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 1,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 2,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 3,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 4,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 5,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 6,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 7,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 8,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 9,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 10,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 11,
+        "TotalVerses": 34
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 12,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 13,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 14,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 15,
+        "TotalVerses": 58
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 46,
+        "ChapterNumber": 16,
+        "TotalVerses": 24
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 46,
+        "Language": "en",
+        "Name": "1 Corinthians",
+        "AlternateIdentifiers": "1 Cor.,1 Cor,1Co"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 46,
+        "Language": "es",
+        "Name": "1 Corintios",
+        "AlternateIdentifiers": "1 Cor.,1 Cor,1Co"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 47,
+    "Name": "2 Corinthians",
+    "TotalChapters": 13,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 1,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 2,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 4,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 5,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 6,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 7,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 8,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 9,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 10,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 11,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 12,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 47,
+        "ChapterNumber": 13,
+        "TotalVerses": 14
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 47,
+        "Language": "en",
+        "Name": "2 Corinthians",
+        "AlternateIdentifiers": "2 Cor.,2 Cor,2Co"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 47,
+        "Language": "es",
+        "Name": "2 Corintios",
+        "AlternateIdentifiers": "2 Cor.,2 Cor,2Co"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 48,
+    "Name": "Galatians",
+    "TotalChapters": 6,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 1,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 2,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 3,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 4,
+        "TotalVerses": 31
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 5,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 48,
+        "ChapterNumber": 6,
+        "TotalVerses": 18
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 48,
+        "Language": "en",
+        "Name": "Galatians",
+        "AlternateIdentifiers": "Gal.,Gal,Ga"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 48,
+        "Language": "es",
+        "Name": "Gálatas",
+        "AlternateIdentifiers": "Gál.,Gál,Gal.,Gal,Galatas"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 49,
+    "Name": "Ephesians",
+    "TotalChapters": 6,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 1,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 2,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 3,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 4,
+        "TotalVerses": 32
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 5,
+        "TotalVerses": 33
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 49,
+        "ChapterNumber": 6,
+        "TotalVerses": 24
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 49,
+        "Language": "en",
+        "Name": "Ephesians",
+        "AlternateIdentifiers": "Eph.,Eph"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 49,
+        "Language": "es",
+        "Name": "Efesios",
+        "AlternateIdentifiers": "Efes.,Efes,Ef"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 50,
+    "Name": "Philippians",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 50,
+        "ChapterNumber": 1,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 50,
+        "ChapterNumber": 2,
+        "TotalVerses": 30
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 50,
+        "ChapterNumber": 3,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 50,
+        "ChapterNumber": 4,
+        "TotalVerses": 23
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 50,
+        "Language": "en",
+        "Name": "Philippians",
+        "AlternateIdentifiers": "Phil.,Phil,Php"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 50,
+        "Language": "es",
+        "Name": "Filipenses",
+        "AlternateIdentifiers": "Filip.,Filip,Flp"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 51,
+    "Name": "Colossians",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 51,
+        "ChapterNumber": 1,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 51,
+        "ChapterNumber": 2,
+        "TotalVerses": 23
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 51,
+        "ChapterNumber": 3,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 51,
+        "ChapterNumber": 4,
+        "TotalVerses": 18
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 51,
+        "Language": "en",
+        "Name": "Colossians",
+        "AlternateIdentifiers": "Col.,Col"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 51,
+        "Language": "es",
+        "Name": "Colosenses",
+        "AlternateIdentifiers": "Col.,Col"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 52,
+    "Name": "1 Thessalonians",
+    "TotalChapters": 5,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 52,
+        "ChapterNumber": 1,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 52,
+        "ChapterNumber": 2,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 52,
+        "ChapterNumber": 3,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 52,
+        "ChapterNumber": 4,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 52,
+        "ChapterNumber": 5,
+        "TotalVerses": 28
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 52,
+        "Language": "en",
+        "Name": "1 Thessalonians",
+        "AlternateIdentifiers": "1 Thess.,1 Thess,1Th"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 52,
+        "Language": "es",
+        "Name": "1 Tesalonicenses",
+        "AlternateIdentifiers": "1 Tes.,1 Tes,1Te"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 53,
+    "Name": "2 Thessalonians",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 53,
+        "ChapterNumber": 1,
+        "TotalVerses": 12
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 53,
+        "ChapterNumber": 2,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 53,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 53,
+        "Language": "en",
+        "Name": "2 Thessalonians",
+        "AlternateIdentifiers": "2 Thess.,2 Thess,2Th"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 53,
+        "Language": "es",
+        "Name": "2 Tesalonicenses",
+        "AlternateIdentifiers": "2 Tes.,2 Tes,2Te"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 54,
+    "Name": "1 Timothy",
+    "TotalChapters": 6,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 1,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 2,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 3,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 4,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 5,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 54,
+        "ChapterNumber": 6,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 54,
+        "Language": "en",
+        "Name": "1 Timothy",
+        "AlternateIdentifiers": "1 Tim.,1 Tim,1Ti"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 54,
+        "Language": "es",
+        "Name": "1 Timoteo",
+        "AlternateIdentifiers": "1 Tim.,1 Tim,1Ti"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 55,
+    "Name": "2 Timothy",
+    "TotalChapters": 4,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 55,
+        "ChapterNumber": 1,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 55,
+        "ChapterNumber": 2,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 55,
+        "ChapterNumber": 3,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 55,
+        "ChapterNumber": 4,
+        "TotalVerses": 22
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 55,
+        "Language": "en",
+        "Name": "2 Timothy",
+        "AlternateIdentifiers": "2 Tim.,2 Tim,2Ti"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 55,
+        "Language": "es",
+        "Name": "2 Timoteo",
+        "AlternateIdentifiers": "2 Tim.,2 Tim,2Ti"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 56,
+    "Name": "Titus",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 56,
+        "ChapterNumber": 1,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 56,
+        "ChapterNumber": 2,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 56,
+        "ChapterNumber": 3,
+        "TotalVerses": 15
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 56,
+        "Language": "en",
+        "Name": "Titus",
+        "AlternateIdentifiers": "Titus,Tit"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 56,
+        "Language": "es",
+        "Name": "Tito",
+        "AlternateIdentifiers": "Tito,Tit"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 57,
+    "Name": "Philemon",
+    "TotalChapters": 1,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 57,
+        "ChapterNumber": 1,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 57,
+        "Language": "en",
+        "Name": "Philemon",
+        "AlternateIdentifiers": "Philem.,Philem,Phm"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 57,
+        "Language": "es",
+        "Name": "Filemón",
+        "AlternateIdentifiers": "Filem.,Filem,Flm,Filemon"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 58,
+    "Name": "Hebrews",
+    "TotalChapters": 13,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 1,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 2,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 3,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 4,
+        "TotalVerses": 16
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 5,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 6,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 7,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 8,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 9,
+        "TotalVerses": 28
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 10,
+        "TotalVerses": 39
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 11,
+        "TotalVerses": 40
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 12,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 58,
+        "ChapterNumber": 13,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 58,
+        "Language": "en",
+        "Name": "Hebrews",
+        "AlternateIdentifiers": "Heb.,Heb"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 58,
+        "Language": "es",
+        "Name": "Hebreos",
+        "AlternateIdentifiers": "Heb.,Heb"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 59,
+    "Name": "James",
+    "TotalChapters": 5,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 59,
+        "ChapterNumber": 1,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 59,
+        "ChapterNumber": 2,
+        "TotalVerses": 26
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 59,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 59,
+        "ChapterNumber": 4,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 59,
+        "ChapterNumber": 5,
+        "TotalVerses": 20
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 59,
+        "Language": "en",
+        "Name": "James",
+        "AlternateIdentifiers": "Jas.,Jas"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 59,
+        "Language": "es",
+        "Name": "Santiago",
+        "AlternateIdentifiers": "Sant.,Sant,Snt"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 60,
+    "Name": "1 Peter",
+    "TotalChapters": 5,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 60,
+        "ChapterNumber": 1,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 60,
+        "ChapterNumber": 2,
+        "TotalVerses": 25
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 60,
+        "ChapterNumber": 3,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 60,
+        "ChapterNumber": 4,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 60,
+        "ChapterNumber": 5,
+        "TotalVerses": 14
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 60,
+        "Language": "en",
+        "Name": "1 Peter",
+        "AlternateIdentifiers": "1 Pet.,1 Pet,1Pe"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 60,
+        "Language": "es",
+        "Name": "1 Pedro",
+        "AlternateIdentifiers": "1 Ped.,1 Ped,1Pe"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 61,
+    "Name": "2 Peter",
+    "TotalChapters": 3,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 61,
+        "ChapterNumber": 1,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 61,
+        "ChapterNumber": 2,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 61,
+        "ChapterNumber": 3,
+        "TotalVerses": 18
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 61,
+        "Language": "en",
+        "Name": "2 Peter",
+        "AlternateIdentifiers": "2 Pet.,2 Pet,2Pe"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 61,
+        "Language": "es",
+        "Name": "2 Pedro",
+        "AlternateIdentifiers": "2 Ped.,2 Ped,2Pe"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 62,
+    "Name": "1 John",
+    "TotalChapters": 5,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 62,
+        "ChapterNumber": 1,
+        "TotalVerses": 10
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 62,
+        "ChapterNumber": 2,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 62,
+        "ChapterNumber": 3,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 62,
+        "ChapterNumber": 4,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 62,
+        "ChapterNumber": 5,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 62,
+        "Language": "en",
+        "Name": "1 John",
+        "AlternateIdentifiers": "1 John,1Jo"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 62,
+        "Language": "es",
+        "Name": "1 Juan",
+        "AlternateIdentifiers": "1 Juan,1Jn"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 63,
+    "Name": "2 John",
+    "TotalChapters": 1,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 63,
+        "ChapterNumber": 1,
+        "TotalVerses": 13
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 63,
+        "Language": "en",
+        "Name": "2 John",
+        "AlternateIdentifiers": "2 John,2Jo"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 63,
+        "Language": "es",
+        "Name": "2 Juan",
+        "AlternateIdentifiers": "2 Juan,2Jn"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 64,
+    "Name": "3 John",
+    "TotalChapters": 1,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 64,
+        "ChapterNumber": 1,
+        "TotalVerses": 15
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 64,
+        "Language": "en",
+        "Name": "3 John",
+        "AlternateIdentifiers": "3 John,3Jo"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 64,
+        "Language": "es",
+        "Name": "3 Juan",
+        "AlternateIdentifiers": "3 Juan,3Jn"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 65,
+    "Name": "Jude",
+    "TotalChapters": 1,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 65,
+        "ChapterNumber": 1,
+        "TotalVerses": 25
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 65,
+        "Language": "en",
+        "Name": "Jude",
+        "AlternateIdentifiers": "Jude"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 65,
+        "Language": "es",
+        "Name": "Judas",
+        "AlternateIdentifiers": "Jud.,Jud"
+      }
+    ]
+  },
+  {
+    "BibleBookId": 66,
+    "Name": "Revelation",
+    "TotalChapters": 22,
+    "Chapters": [
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 1,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 2,
+        "TotalVerses": 29
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 3,
+        "TotalVerses": 22
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 4,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 5,
+        "TotalVerses": 14
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 6,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 7,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 8,
+        "TotalVerses": 13
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 9,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 10,
+        "TotalVerses": 11
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 11,
+        "TotalVerses": 19
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 12,
+        "TotalVerses": 17
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 13,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 14,
+        "TotalVerses": 20
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 15,
+        "TotalVerses": 8
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 16,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 17,
+        "TotalVerses": 18
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 18,
+        "TotalVerses": 24
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 19,
+        "TotalVerses": 21
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 20,
+        "TotalVerses": 15
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 21,
+        "TotalVerses": 27
+      },
+      {
+        "BibleChapterId": 0,
+        "BibleBookId": 66,
+        "ChapterNumber": 22,
+        "TotalVerses": 21
+      }
+    ],
+    "BookNames": [
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 66,
+        "Language": "en",
+        "Name": "Revelation",
+        "AlternateIdentifiers": "Rev.,Rev,Re"
+      },
+      {
+        "BibleBookNameId": 0,
+        "BibleBookId": 66,
+        "Language": "es",
+        "Name": "Revelación",
+        "AlternateIdentifiers": "Rev.,Rev,Revelacion"
+      }
+    ]
+  }
+]

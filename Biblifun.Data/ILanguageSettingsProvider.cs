@@ -1,4 +1,4 @@
-﻿namespace Biblifun.Common
+﻿namespace Biblifun.Data
 {
     public interface ILanguageSettingsProvider
     {

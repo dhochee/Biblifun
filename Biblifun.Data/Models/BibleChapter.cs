@@ -14,6 +14,8 @@ namespace Biblifun.Data.Models
         public BibleBook Book { get; set; }
 
 
+        public int ChapterNumber { get; set; }
+
         public int TotalVerses { get; set; }
     }
 }

@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Biblifun.Data.Models
 {
     public class Category : AuditableEntity
     {
+        public Category()
+        {
+            this.ScriptureSetCategories = new HashSet<ScriptureSetCategory>();
+            this.ScriptureSetItemCategories = new HashSet<ScriptureSetItemCategory>();
+        }
+
         public int CategoryId { get; set; }
 
         public string UserId { get; set; }
@@ -15,8 +19,8 @@ namespace Biblifun.Data.Models
         public string Language { get; set; }
 
 
-        public ICollection<ScriptureSetItem> ScriptureSetItems { get; set; }
+        public ICollection<ScriptureSetCategory> ScriptureSetCategories { get; set; }
 
-        public ICollection<ScriptureSet> ScriptureSets { get; set; }
+        public ICollection<ScriptureSetItemCategory> ScriptureSetItemCategories { get; set; }
     }
 }

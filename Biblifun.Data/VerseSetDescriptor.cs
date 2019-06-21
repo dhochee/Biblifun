@@ -1,4 +1,4 @@
-﻿namespace Biblifun.Common
+﻿namespace Biblifun.Data
 {
     /// <summary>
     /// Describes a verse or sequence of verses with a specfic book, chapter, and verse. 

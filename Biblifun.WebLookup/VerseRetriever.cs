@@ -1,4 +1,4 @@
-﻿using Biblifun.Common;
+﻿using Biblifun.Data;
 using Biblifun.WebLookup.Util;
 using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
@@ -69,7 +69,7 @@ namespace Biblifun.WebLookup
         /// </summary>
         public string GetVerseUrl(VerseSetDescriptor setDescriptor)
         {
-            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId);
+            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId, _languageProvider.Language);
 
             var tokens = new Dictionary<string, string>
             {
