@@ -21,15 +21,11 @@ namespace Biblifun.Data.Models
             {
                 string friendlyName = string.IsNullOrWhiteSpace(FullName) ? UserName : FullName;
 
-                if (!string.IsNullOrWhiteSpace(JobTitle))
-                    friendlyName = $"{JobTitle} {friendlyName}";
-
                 return friendlyName;
             }
         }
 
 
-        public string JobTitle { get; set; }
         public string FullName { get; set; }
         public string Configuration { get; set; }
         public bool IsEnabled { get; set; }

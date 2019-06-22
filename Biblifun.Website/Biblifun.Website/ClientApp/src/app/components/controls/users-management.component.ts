@@ -62,7 +62,6 @@ export class UsersManagementComponent implements OnInit, AfterViewInit {
 
         this.columns = [
             { prop: 'index', name: '#', width: 40, cellTemplate: this.indexTemplate, canAutoResize: false },
-            { prop: 'jobTitle', name: gT('users.management.Title'), width: 50 },
             { prop: 'userName', name: gT('users.management.UserName'), width: 90, cellTemplate: this.userNameTemplate },
             { prop: 'fullName', name: gT('users.management.FullName'), width: 120 },
             { prop: 'email', name: gT('users.management.Email'), width: 140 },
@@ -167,7 +166,7 @@ export class UsersManagementComponent implements OnInit, AfterViewInit {
 
 
     onSearchChanged(value: string) {
-        this.rows = this.rowsCache.filter(r => Utilities.searchArray(value, false, r.userName, r.fullName, r.email, r.phoneNumber, r.jobTitle, r.roles));
+        this.rows = this.rowsCache.filter(r => Utilities.searchArray(value, false, r.userName, r.fullName, r.email, r.phoneNumber, r.roles));
     }
 
     onEditorModalHidden() {

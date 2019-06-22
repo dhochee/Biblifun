@@ -11,7 +11,9 @@ namespace Biblifun.IntegrationTests
 {
     public class VerseRetrieverIntegrationTests
     {
-        Mock<ILanguageProvider> _languageProviderMock;
+        private const string ENGLISH = "en";
+        private const string SPANISH = "es";
+
         ILanguageSettingsProvider _languageSettingsProvider;
         BibleBookProviderMock _bibleBookProviderMock;
         IVerseParser _verseParser;
@@ -20,9 +22,6 @@ namespace Biblifun.IntegrationTests
         [SetUp]
         public void SetupTest()
         {
-            _languageProviderMock = new Mock<ILanguageProvider>();
-            _languageProviderMock.Setup(lp => lp.Language).Returns("en");
-
             _languageSettingsProvider = new LanguageSettingsProvider();
 
             _bibleBookProviderMock = new BibleBookProviderMock();
@@ -34,8 +33,7 @@ namespace Biblifun.IntegrationTests
 
         private VerseRetriever GetVerseRetriever()
         {
-            return new VerseRetriever(_languageProviderMock.Object,
-                                      _languageSettingsProvider,
+            return new VerseRetriever(_languageSettingsProvider,
                                       _verseParser,
                                       _loggerMock.Object);
         }
@@ -52,7 +50,7 @@ namespace Biblifun.IntegrationTests
             _verseParser.TryParseVerseString(verse, "en", out VerseSetDescriptor verseSet);
 
             // ACT
-            var html = await verseRetriever.GetVerseHtmlAsync(verseSet);
+            var html = await verseRetriever.GetVerseHtmlAsync(verseSet, ENGLISH);
 
             // ASSERT
             html.ShouldNotBeNull();
@@ -68,12 +66,11 @@ namespace Biblifun.IntegrationTests
             _verseParser = new VerseParser(_bibleBookProviderMock.Object);
 
             var verseRetriever = GetVerseRetriever();
-            _languageProviderMock.Setup(lp => lp.Language).Returns("es");
 
-            _verseParser.TryParseVerseString(verse, "es", out VerseSetDescriptor verseSet);
+            _verseParser.TryParseVerseString(verse, SPANISH, out VerseSetDescriptor verseSet);
 
             // ACT
-            var html = await verseRetriever.GetVerseHtmlAsync(verseSet);
+            var html = await verseRetriever.GetVerseHtmlAsync(verseSet, SPANISH);
 
             // ASSERT
             html.ShouldNotBeNull();

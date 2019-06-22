@@ -60,6 +60,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Biblifun.Data\Biblifun.Data.csproj" />
+    <ProjectReference Include="..\..\Biblifun.Email\Biblifun.Email.csproj" />
+    <ProjectReference Include="..\..\Biblifun.WebLookup\Biblifun.WebLookup.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

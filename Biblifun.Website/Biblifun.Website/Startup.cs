@@ -26,6 +26,9 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Collections.Generic;
 using AppPermissions = Biblifun.Data.Core.ApplicationPermissions;
+using Biblifun.Data.Repositories.Interfaces;
+using Biblifun.Data.Repositories;
+using Biblifun.Website.Managers;
 
 namespace Biblifun.Website
 {
@@ -96,7 +99,7 @@ namespace Biblifun.Website
                 {
                     options.Authority = applicationUrl;
                     options.SupportedTokens = SupportedTokens.Jwt;
-                    options.RequireHttpsMetadata = true; // Note: Set to true in production
+                    options.RequireHttpsMetadata = false; // Note: Set to true in production
                     options.ApiName = IdentityServerConfig.ApiName;
                 });
 
@@ -176,10 +179,18 @@ namespace Biblifun.Website
             // Business Services
             services.AddScoped<IEmailSender, EmailSender>();
 
+            // TODO: Data classes should be handled in their own profile
+            services.AddScoped<IBibleBookProvider, BibleBookProvider>();
+            services.AddScoped<IVerseParser, VerseParser>();
+
+
+            // Managers
+            services.AddScoped<IScriptureLookupManager, ScriptureLookupManager>();
 
             // Repositories
             services.AddScoped<IUnitOfWork, HttpUnitOfWork>();
             services.AddScoped<IAccountManager, AccountManager>();
+            services.AddScoped<IVerseCacheRepository, VerseCacheRepository>();
 
             // Auth Handlers
             services.AddSingleton<IAuthorizationHandler, ViewUserAuthorizationHandler>();

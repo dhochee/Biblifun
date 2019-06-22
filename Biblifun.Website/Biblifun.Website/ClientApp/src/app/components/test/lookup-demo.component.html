@@ -1,0 +1,19 @@
+<div class="container">
+    <div [@fadeInOut]>
+
+      <div>
+        <div>Language</div>
+          <select id="selectLanguage">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+
+      <div id="divLookupText">
+          <div>Enter the scripture</div>
+          <input type="text" id="txtLookup"/><button id="btnLookup" (click)="lookupScripture()">Lookup</button>
+        </div>
+
+        <div id="lookupResult">{{ resultHtml }}</div>
+    </div>
+</div>

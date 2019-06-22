@@ -31,6 +31,10 @@ import { NotificationService } from '../services/notification.service';
 import { NotificationEndpoint } from '../services/notification-endpoint.service';
 import { AccountService } from '../services/account.service';
 import { AccountEndpoint } from '../services/account-endpoint.service';
+import { ScriptureLookupService } from '../services/scripture-lookup.service';
+import { ScriptureLookupEndpoint } from '../services/scripture-lookup-endpoint.service';
+
+
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -67,6 +71,8 @@ describe('AppComponent', () => {
         NotificationEndpoint,
         AccountService,
         AccountEndpoint,
+        ScriptureLookupService,
+        ScriptureLookupEndpoint,
         LocalStoreManager,
         EndpointFactory
       ]

@@ -17,10 +17,6 @@ interface UserConfiguration {
   language: string;
   homeUrl: string;
   themeId: number;
-  showDashboardStatistics: boolean;
-  showDashboardNotifications: boolean;
-  showDashboardTodo: boolean;
-  showDashboardBanner: boolean;
 }
 
 @Injectable()
@@ -62,53 +58,13 @@ export class ConfigurationService {
   get homeUrl() {
     return this._homeUrl || ConfigurationService.defaultHomeUrl;
   }
-
-
-  set showDashboardStatistics(value: boolean) {
-    this._showDashboardStatistics = value;
-    this.saveToLocalStore(value, DBkeys.SHOW_DASHBOARD_STATISTICS);
-  }
-  get showDashboardStatistics() {
-    return this._showDashboardStatistics != null ? this._showDashboardStatistics : ConfigurationService.defaultShowDashboardStatistics;
-  }
-
-
-  set showDashboardNotifications(value: boolean) {
-    this._showDashboardNotifications = value;
-    this.saveToLocalStore(value, DBkeys.SHOW_DASHBOARD_NOTIFICATIONS);
-  }
-  get showDashboardNotifications() {
-    return this._showDashboardNotifications != null ? this._showDashboardNotifications : ConfigurationService.defaultShowDashboardNotifications;
-  }
-
-
-  set showDashboardTodo(value: boolean) {
-    this._showDashboardTodo = value;
-    this.saveToLocalStore(value, DBkeys.SHOW_DASHBOARD_TODO);
-  }
-  get showDashboardTodo() {
-    return this._showDashboardTodo != null ? this._showDashboardTodo : ConfigurationService.defaultShowDashboardTodo;
-  }
-
-
-  set showDashboardBanner(value: boolean) {
-    this._showDashboardBanner = value;
-    this.saveToLocalStore(value, DBkeys.SHOW_DASHBOARD_BANNER);
-  }
-  get showDashboardBanner() {
-    return this._showDashboardBanner != null ? this._showDashboardBanner : ConfigurationService.defaultShowDashboardBanner;
-  }
-
+    
   public static readonly appVersion: string = '2.7.2';
 
   // ***Specify default configurations here***
   public static readonly defaultLanguage: string = 'en';
   public static readonly defaultHomeUrl: string = '/';
   public static readonly defaultThemeId: number = 1;
-  public static readonly defaultShowDashboardStatistics: boolean = true;
-  public static readonly defaultShowDashboardNotifications: boolean = true;
-  public static readonly defaultShowDashboardTodo: boolean = false;
-  public static readonly defaultShowDashboardBanner: boolean = true;
 
   public baseUrl = environment.baseUrl || Utilities.baseUrl();
   public tokenUrl = environment.tokenUrl || environment.baseUrl || Utilities.baseUrl();
@@ -119,10 +75,6 @@ export class ConfigurationService {
   private _language: string = null;
   private _homeUrl: string = null;
   private _themeId: number = null;
-  private _showDashboardStatistics: boolean = null;
-  private _showDashboardNotifications: boolean = null;
-  private _showDashboardTodo: boolean = null;
-  private _showDashboardBanner: boolean = null;
 
   private onConfigurationImported: Subject<boolean> = new Subject<boolean>();
   configurationImported$ = this.onConfigurationImported.asObservable();
@@ -150,22 +102,6 @@ export class ConfigurationService {
     if (this.localStorage.exists(DBkeys.HOME_URL)) {
       this._homeUrl = this.localStorage.getDataObject<string>(DBkeys.HOME_URL);
     }
-
-    if (this.localStorage.exists(DBkeys.SHOW_DASHBOARD_STATISTICS)) {
-      this._showDashboardStatistics = this.localStorage.getDataObject<boolean>(DBkeys.SHOW_DASHBOARD_STATISTICS);
-    }
-
-    if (this.localStorage.exists(DBkeys.SHOW_DASHBOARD_NOTIFICATIONS)) {
-      this._showDashboardNotifications = this.localStorage.getDataObject<boolean>(DBkeys.SHOW_DASHBOARD_NOTIFICATIONS);
-    }
-
-    if (this.localStorage.exists(DBkeys.SHOW_DASHBOARD_TODO)) {
-      this._showDashboardTodo = this.localStorage.getDataObject<boolean>(DBkeys.SHOW_DASHBOARD_TODO);
-    }
-
-    if (this.localStorage.exists(DBkeys.SHOW_DASHBOARD_BANNER)) {
-      this._showDashboardBanner = this.localStorage.getDataObject<boolean>(DBkeys.SHOW_DASHBOARD_BANNER);
-    }
   }
 
 
@@ -192,22 +128,6 @@ export class ConfigurationService {
       if (importValue.homeUrl != null) {
         this.homeUrl = importValue.homeUrl;
       }
-
-      if (importValue.showDashboardStatistics != null) {
-        this.showDashboardStatistics = importValue.showDashboardStatistics;
-      }
-
-      if (importValue.showDashboardNotifications != null) {
-        this.showDashboardNotifications = importValue.showDashboardNotifications;
-      }
-
-      if (importValue.showDashboardTodo != null) {
-        this.showDashboardTodo = importValue.showDashboardTodo;
-      }
-
-      if (importValue.showDashboardBanner != null) {
-        this.showDashboardBanner = importValue.showDashboardBanner;
-      }
     }
 
     this.onConfigurationImported.next();
@@ -220,10 +140,6 @@ export class ConfigurationService {
       language: changesOnly ? this._language : this.language,
       themeId: changesOnly ? this._themeId : this.themeId,
       homeUrl: changesOnly ? this._homeUrl : this.homeUrl,
-      showDashboardStatistics: changesOnly ? this._showDashboardStatistics : this.showDashboardStatistics,
-      showDashboardNotifications: changesOnly ? this._showDashboardNotifications : this.showDashboardNotifications,
-      showDashboardTodo: changesOnly ? this._showDashboardTodo : this.showDashboardTodo,
-      showDashboardBanner: changesOnly ? this._showDashboardBanner : this.showDashboardBanner
     };
 
     return JSON.stringify(exportValue);
@@ -234,18 +150,10 @@ export class ConfigurationService {
     this._language = null;
     this._themeId = null;
     this._homeUrl = null;
-    this._showDashboardStatistics = null;
-    this._showDashboardNotifications = null;
-    this._showDashboardTodo = null;
-    this._showDashboardBanner = null;
 
     this.localStorage.deleteData(DBkeys.LANGUAGE);
     this.localStorage.deleteData(DBkeys.THEME_ID);
     this.localStorage.deleteData(DBkeys.HOME_URL);
-    this.localStorage.deleteData(DBkeys.SHOW_DASHBOARD_STATISTICS);
-    this.localStorage.deleteData(DBkeys.SHOW_DASHBOARD_NOTIFICATIONS);
-    this.localStorage.deleteData(DBkeys.SHOW_DASHBOARD_TODO);
-    this.localStorage.deleteData(DBkeys.SHOW_DASHBOARD_BANNER);
 
     this.resetLanguage();
     this.resetTheme();

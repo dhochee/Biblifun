@@ -15,17 +15,14 @@ namespace Biblifun.WebLookup
     /// </summary>
     public class VerseRetriever : IVerseRetriever
     {
-        readonly ILanguageProvider _languageProvider;
         readonly ILanguageSettingsProvider _languageSettingsProvider;
         readonly IVerseParser _verseParser;
         readonly ILogger<VerseRetriever> _logger;
 
-        public VerseRetriever(ILanguageProvider languageProvider,
-                              ILanguageSettingsProvider languageSettingsProvider,
+        public VerseRetriever(ILanguageSettingsProvider languageSettingsProvider, 
                               IVerseParser verseParser,
                               ILogger<VerseRetriever> logger)
         {
-            _languageProvider = languageProvider;
             _languageSettingsProvider = languageSettingsProvider;
             _verseParser = verseParser;
             _logger = logger;
@@ -36,11 +33,11 @@ namespace Biblifun.WebLookup
         /// single chapter, asynchronously retrieve the language-specific HTML from the 
         /// WOL website, modifying the returned HTML in the process to suit our use.
         /// </summary>
-        public async Task<string> GetVerseHtmlAsync(VerseSetDescriptor verseSet)
+        public async Task<string> GetVerseHtmlAsync(VerseSetDescriptor verseSet, string language)
         {
             string verseHtml = null;
 
-            var url = GetVerseUrl(verseSet);
+            var url = GetVerseUrl(verseSet, language);
 
             try
             {
@@ -67,9 +64,9 @@ namespace Biblifun.WebLookup
         /// Given a verse set id, get the url that will retrieve the 
         /// verse from the WOL site using the configured language.
         /// </summary>
-        public string GetVerseUrl(VerseSetDescriptor setDescriptor)
+        public string GetVerseUrl(VerseSetDescriptor setDescriptor, string language)
         {
-            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId, _languageProvider.Language);
+            var bookName = _verseParser.GetBookNameById(setDescriptor.BookId, language);
 
             var tokens = new Dictionary<string, string>
             {
@@ -80,7 +77,7 @@ namespace Biblifun.WebLookup
             };
 
             // get the URL template specified for the language
-            var settings = _languageSettingsProvider.GetLanguageSettings(_languageProvider.Language);
+            var settings = _languageSettingsProvider.GetLanguageSettings(language);
 
             // replace the tokens in the template with the values we obtained above
             var url = settings.ScriptureLookupUrlTemplate.FormatToken(tokens);

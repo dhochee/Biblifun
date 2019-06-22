@@ -46,7 +46,6 @@ namespace Biblifun.Data.Migrations
                     LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
-                    JobTitle = table.Column<string>(nullable: true),
                     FullName = table.Column<string>(nullable: true),
                     Configuration = table.Column<string>(nullable: true),
                     IsEnabled = table.Column<bool>(nullable: false),

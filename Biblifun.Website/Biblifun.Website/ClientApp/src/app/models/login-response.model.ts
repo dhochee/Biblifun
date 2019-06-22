@@ -29,7 +29,6 @@ export interface AccessToken {
     email: string;
     phone_number: string;
     fullname: string;
-    jobtitle: string;
     configuration: string;
     scope: string | string[];
     amr: string[];

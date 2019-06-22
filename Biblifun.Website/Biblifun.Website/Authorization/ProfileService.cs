@@ -38,9 +38,6 @@ namespace Biblifun.Website.Authorization
             var claims = principal.Claims.ToList();
             claims = claims.Where(claim => context.RequestedClaimTypes.Contains(claim.Type)).ToList();
 
-            if (user.JobTitle != null)
-                claims.Add(new Claim(PropertyConstants.JobTitle, user.JobTitle));
-
             if (user.FullName != null)
                 claims.Add(new Claim(PropertyConstants.FullName, user.FullName));
 

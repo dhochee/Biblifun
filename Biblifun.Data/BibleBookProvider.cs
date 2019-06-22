@@ -6,15 +6,14 @@ namespace Biblifun.Data
 {
     public class BibleBookProvider : IBibleBookProvider
     {
-        readonly ApplicationDbContext _dbContext;
-        readonly ILanguageProvider _languageProvider;
+        private const string DEFAULT_LANGUAGE = "en";
 
-        public BibleBookProvider(ApplicationDbContext dbContext,
-                                 ILanguageProvider languageProvider)
+        readonly ApplicationDbContext _dbContext;
+
+        public BibleBookProvider(ApplicationDbContext dbContext)
         {
 
             _dbContext = dbContext;
-            _languageProvider = languageProvider;
         }
 
         public List<BibleBook> BibleBooks
@@ -31,7 +30,7 @@ namespace Biblifun.Data
         {
             get
             {
-                return this.Language ?? _languageProvider.Language ?? "en";
+                return this.Language ?? DEFAULT_LANGUAGE;
             }
         }
 
