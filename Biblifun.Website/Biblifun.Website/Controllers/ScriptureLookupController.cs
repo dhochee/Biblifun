@@ -24,7 +24,6 @@ using Biblifun.Website.Managers;
 
 namespace Biblifun.Website.Controllers
 {
-    [Authorize(AuthenticationSchemes = IdentityServerAuthenticationDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     public class ScriptureLookupController : Controller
     {

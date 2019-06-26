@@ -4,17 +4,11 @@ namespace Biblifun.Data.Models
 {
     public class ScriptureSet : AuditableEntity
     {
-        public ScriptureSet()
-        {
-            this.ScriptureSetItems = new HashSet<ScriptureSetItem>();
-            this.ScriptureSetCategories = new HashSet<ScriptureSetCategory>();
-        }
-
         public int ScriptureSetId { get; set; }
 
         public string OwnedByUserId { get; set; }
 
-        public ApplicationUser OwnedByUser { get; set; }
+        public virtual ApplicationUser OwnedByUser { get; set; }
 
         public string Description { get; set; }
 
@@ -22,8 +16,8 @@ namespace Biblifun.Data.Models
 
         public bool IsPassageSet { get; set; }
 
-        public ICollection<ScriptureSetItem> ScriptureSetItems { get; set; }
+        public virtual ICollection<ScriptureSetItem> ScriptureSetItems { get; set; }
 
-        public ICollection<ScriptureSetCategory> ScriptureSetCategories { get; set; }
+        public virtual ICollection<ScriptureSetCategory> ScriptureSetCategories { get; set; }
     }
 }

@@ -4,12 +4,6 @@ namespace Biblifun.Data.Models
 {
     public class Category : AuditableEntity
     {
-        public Category()
-        {
-            this.ScriptureSetCategories = new HashSet<ScriptureSetCategory>();
-            this.ScriptureSetItemCategories = new HashSet<ScriptureSetItemCategory>();
-        }
-
         public int CategoryId { get; set; }
 
         public string UserId { get; set; }
@@ -19,8 +13,8 @@ namespace Biblifun.Data.Models
         public string Language { get; set; }
 
 
-        public ICollection<ScriptureSetCategory> ScriptureSetCategories { get; set; }
+        public virtual ICollection<ScriptureSetCategory> ScriptureSetCategories { get; set; }
 
-        public ICollection<ScriptureSetItemCategory> ScriptureSetItemCategories { get; set; }
+        public virtual ICollection<ScriptureSetItemCategory> ScriptureSetItemCategories { get; set; }
     }
 }

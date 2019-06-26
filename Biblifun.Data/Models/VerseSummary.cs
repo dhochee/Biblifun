@@ -15,6 +15,6 @@ namespace Biblifun.Data.Models
 
         public string OwnedByUserId { get; set; }
 
-        public ApplicationUser OwnedByUser { get; set; }
+        public virtual ApplicationUser OwnedByUser { get; set; }
     }
 }

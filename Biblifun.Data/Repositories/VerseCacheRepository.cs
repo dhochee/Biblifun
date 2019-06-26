@@ -10,19 +10,28 @@ namespace Biblifun.Data.Repositories
         { }
 
 
-        public string GetVerseHtmlByCode(string verseCode)
+        public string GetVerseHtmlByCode(string verseCode, string language)
         {
-            return _appContext.CachedVerses.FirstOrDefault(v => v.VerseSetCode == verseCode)?.Html;
+            return _appContext.CachedVerses.FirstOrDefault(v => v.VerseSetCode == verseCode && v.Language == language)?.Html;
         }
 
-        public void AddVerseHtml(string verseCode, string language, string html)
+        public void AddVerseHtml(string verseCode, string language, string html, int searchCount)
         {
             _appContext.CachedVerses.Add(new VerseCache
             {
                 VerseSetCode = verseCode,
                 Language = language,
-                Html = html
+                Html = html,
+                SearchCount = searchCount
             });
+        }
+
+        public int? GetSearchCountByCode(string verseCode)
+        {
+            return _appContext.CachedVerses
+                              .Where(v => v.VerseSetCode == verseCode && v.SearchCount > 0)
+                              .Select(v => (int?)v.SearchCount)
+                              .FirstOrDefault();
         }
 
         private ApplicationDbContext _appContext => (ApplicationDbContext)_context;

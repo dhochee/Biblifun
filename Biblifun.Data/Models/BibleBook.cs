@@ -1,18 +1,13 @@
 ﻿using Biblifun.Common.Util;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace Biblifun.Data.Models
 {
     public class BibleBook
     {
-        public BibleBook()
-        {
-            Chapters = new List<BibleChapter>();
-            BookNames = new List<BibleBookName>();
-        }
-
         public int BibleBookId { get; set; }
 
         public string Name { get; set; }
@@ -20,9 +15,20 @@ namespace Biblifun.Data.Models
         public int TotalChapters { get; set; }
 
 
-        public ICollection<BibleChapter> Chapters { get; set; }
+        public virtual ICollection<BibleChapter> Chapters { get; set; }
 
-        public ICollection<BibleBookName> BookNames { get; set; }
+        public virtual ICollection<BibleBookName> BookNames { get; set; }
+
+        [NotMapped]
+        public List<BibleChapter> SortedChapters
+        {
+            get
+            {
+                return Chapters.OrderBy(c => c.ChapterNumber).ToList();
+            }
+        }
+
+
 
         /// <summary>
         /// Returns the display name of the Bible book given the specified language. 

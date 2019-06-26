@@ -29,6 +29,7 @@ using AppPermissions = Biblifun.Data.Core.ApplicationPermissions;
 using Biblifun.Data.Repositories.Interfaces;
 using Biblifun.Data.Repositories;
 using Biblifun.Website.Managers;
+using Biblifun.WebLookup;
 
 namespace Biblifun.Website
 {
@@ -50,7 +51,8 @@ namespace Biblifun.Website
             IdentityModelEventSource.ShowPII = true;
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Data")));
+                options.UseLazyLoadingProxies()
+                       .UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Biblifun.Data")));;
 
             // add identity
             services.AddIdentity<ApplicationUser, ApplicationRole>()
@@ -182,7 +184,9 @@ namespace Biblifun.Website
             // TODO: Data classes should be handled in their own profile
             services.AddScoped<IBibleBookProvider, BibleBookProvider>();
             services.AddScoped<IVerseParser, VerseParser>();
-
+            services.AddScoped<IVerseRetriever, VerseRetriever>();
+            services.AddScoped<ISearchCountRetriever, SearchCountRetriever>();
+            services.AddScoped<ILanguageSettingsProvider, LanguageSettingsProvider>();
 
             // Managers
             services.AddScoped<IScriptureLookupManager, ScriptureLookupManager>();

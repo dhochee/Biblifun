@@ -17,29 +17,23 @@ namespace Biblifun.Data
     {
         readonly ApplicationDbContext _context;
 
-        /*
-        ICustomerRepository _customers;
-        */
-
+        IVerseCacheRepository _cachedVerses;
 
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
         }
 
-
-        /*
-        public ICustomerRepository Customers
+        public IVerseCacheRepository VerseCacheRepo
         {
             get
             {
-                if (_customers == null)
-                    _customers = new CustomerRepository(_context);
+                if (_cachedVerses == null)
+                    _cachedVerses = new VerseCacheRepository(_context);
 
-                return _customers;
+                return _cachedVerses;
             }
         }
-        */
 
         public int SaveChanges()
         {

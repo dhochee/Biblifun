@@ -1,36 +1,30 @@
-// =============================
-// Email: info@ebenmonney.com
-// www.ebenmonney.com/templates
-// =============================
-
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { fadeInOut } from '../../services/animations';
 import { Observable, Subject, forkJoin } from 'rxjs';
-import { ScriptureLookupService } from '../../services/scripture-lookup.service';
+import { ScriptureLookupEndpoint } from '../../services/scripture-lookup-endpoint.service';
 
 
 @Component({
-    selector: 'customers',
-    templateUrl: './customers.component.html',
-    styleUrls: ['./customers.component.scss'],
-    animations: [fadeInOut]
+    selector: 'lookup-demo',
+    templateUrl: './lookup-demo.component.html',
+    styleUrls: ['./lookup-demo.component.scss'],
+    animations: [fadeInOut],
+    encapsulation: ViewEncapsulation.None
 })
 export class LookupDemoComponent {
 
-  constructor(private scriptureLookupService: ScriptureLookupService) {
+  constructor(private scriptureLookupService: ScriptureLookupEndpoint) {
   }
 
   language: string;
 
   citation: string;
 
-  resultHtml: Observable<string>;
+  resultHtml: string;
 
   lookupScripture() {
-
-    this.language = "en";
-    this.citation = "Matthew 24:14";
-
-    this.resultHtml = this.scriptureLookupService.lookupScripture(this.language, this.citation);
+    this.scriptureLookupService.lookupScriptureEndpoint(this.language, this.citation)
+      .subscribe((resultHtml: string) =>
+        this.resultHtml = resultHtml);
   }
 }

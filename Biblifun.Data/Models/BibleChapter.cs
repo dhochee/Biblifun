@@ -11,7 +11,7 @@ namespace Biblifun.Data.Models
         
         public int BibleBookId { get; set; }
 
-        public BibleBook Book { get; set; }
+        public virtual BibleBook Book { get; set; }
 
 
         public int ChapterNumber { get; set; }

@@ -32,7 +32,6 @@ import { NotificationService } from './services/notification.service';
 import { NotificationEndpoint } from './services/notification-endpoint.service';
 import { AccountService } from './services/account.service';
 import { AccountEndpoint } from './services/account-endpoint.service';
-import { ScriptureLookupService } from './services/scripture-lookup.service';
 import { ScriptureLookupEndpoint } from './services/scripture-lookup-endpoint.service';
 
 import { EqualValidator } from './directives/equal-validator.directive';
@@ -64,6 +63,7 @@ import { UserPreferencesComponent } from './components/controls/user-preferences
 import { UsersManagementComponent } from './components/controls/users-management.component';
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
+import { LookupDemoComponent } from './components/test/lookup-demo.component';
 
 
 
@@ -112,7 +112,9 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     BootstrapToggleDirective,
     BootstrapSelectDirective,
     BootstrapDatepickerDirective,
-    GroupByPipe
+    GroupByPipe,
+
+    LookupDemoComponent
   ],
   providers: [
     { provide: ErrorHandler, useClass: AppErrorHandler },
@@ -125,7 +127,6 @@ import { RoleEditorComponent } from './components/controls/role-editor.component
     NotificationEndpoint,
     AccountService,
     AccountEndpoint,
-    ScriptureLookupService,
     ScriptureLookupEndpoint,
     LocalStoreManager,
     EndpointFactory

@@ -3,7 +3,7 @@
 
       <div>
         <div>Language</div>
-          <select id="selectLanguage">
+          <select id="selectLanguage" [(ngModel)]="language">
             <option value="en">English</option>
             <option value="es">Spanish</option>
           </select>
@@ -11,9 +11,9 @@
 
       <div id="divLookupText">
           <div>Enter the scripture</div>
-          <input type="text" id="txtLookup"/><button id="btnLookup" (click)="lookupScripture()">Lookup</button>
+          <input type="text" id="txtLookup" [(ngModel)]="citation"/><button id="btnLookup" (click)="lookupScripture()">Lookup</button>
         </div>
 
-        <div id="lookupResult">{{ resultHtml }}</div>
+        <div id="lookupResult" [(innerHtml)]="resultHtml"></div>
     </div>
 </div>

@@ -8,10 +8,10 @@ namespace Biblifun.Data.Models
     {
         public int ScriptureSetId { get; set; }
 
-        public ScriptureSet ScriptureSet { get; set; }
+        public virtual ScriptureSet ScriptureSet { get; set; }
 
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

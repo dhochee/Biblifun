@@ -10,7 +10,7 @@ import { ConfigurationService } from './configuration.service';
 @Injectable()
 export class ScriptureLookupEndpoint extends EndpointFactory {
 
-  private readonly _lookupUrl: string = '/api/lookup/';
+  private readonly _lookupUrl: string = '/api/ScriptureLookup/lookup/';
 
   get lookupUrl() {
     return this.configurations.baseUrl + this._lookupUrl;
@@ -21,10 +21,11 @@ export class ScriptureLookupEndpoint extends EndpointFactory {
     super(http, configurations, injector);
   }
 
-  lookupScriptureEndpoint<T>(language: string, verse: string): Observable<T> {
+  lookupScriptureEndpoint(language: string, verse: string): Observable<string> {
+
     const endpointUrl = `${this.lookupUrl}/${language}/${verse}`;
 
-    return this.http.get<T>(endpointUrl, this.getRequestHeaders()).pipe<T>(
+    return this.http.get<string>(endpointUrl, this.getRequestHeaders()).pipe<string>(
       catchError(error => {
         return this.handleError(error, () => this.lookupScriptureEndpoint(language, verse));
       }));

@@ -66,6 +66,7 @@ namespace Biblifun.Data
                                   out string chapterVerse,
                                   out VerseParseResult result)
         {
+            //TODO: Check for language validity so we don't end up with a vague null exception
             book = null;
             chapterVerse = null;
             result = VerseParseResult.InvalidVerse;
@@ -108,13 +109,13 @@ namespace Biblifun.Data
             {
                 var chapterStr = Regex.Match(chapterVerse, @"\d+:").Value;
 
-                if (chapterStr != null)
+                if (!string.IsNullOrEmpty(chapterStr))
                 {
                     var chapterNum = int.Parse(chapterStr.Replace(":", "").Trim());
 
                     if (chapterNum > 0 && chapterNum <= book.Chapters.Count)
                     {
-                        chapter = ((List<BibleChapter>)book.Chapters)[chapterNum - 1];
+                        chapter = book.SortedChapters[chapterNum - 1];
                         verseString = chapterVerse.Substring(chapterVerse.IndexOf(":") + 1).Trim();
                         result = VerseParseResult.Success;
                     }

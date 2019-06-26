@@ -2,8 +2,10 @@
 {
     public interface IVerseCacheRepository
     {
-        string GetVerseHtmlByCode(string verseCode);
+        string GetVerseHtmlByCode(string verseCode, string language);
 
-        void AddVerseHtml(string verseCode, string language, string html);
+        int? GetSearchCountByCode(string verseCode);
+
+        void AddVerseHtml(string verseCode, string language, string html, int searchCount);
     }
 }
